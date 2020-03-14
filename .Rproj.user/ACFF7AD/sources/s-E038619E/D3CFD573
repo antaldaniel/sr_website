@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1584217330926.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2288308339",
+    "id" : "D3CFD573",
+    "lastKnownWriteTime" : 1584217386,
+    "last_content_update" : 1584217386931,
+    "path" : "C:/Users/Daniel Antal/OneDrive - Visegrad Investments/_website/sr_website/netlify.toml",
+    "project_path" : "netlify.toml",
+    "properties" : {
+        "cursorPosition" : "2,0",
+        "scrollLine" : "0"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 12,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "toml"
+}
