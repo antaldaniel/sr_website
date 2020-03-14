@@ -2,7 +2,7 @@
 
 Starting a website for a forming start-up in the Netherlands.
 
-
+[![Netlify Status](https://api.netlify.com/api/v1/badges/6b1bcd34-8ef4-4ca9-a397-d4bda3b1791e/deploy-status)](https://app.netlify.com/sites/satellitereport/deploys)
 
 ## Website License
 
