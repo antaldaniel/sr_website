@@ -11,3 +11,4 @@ exampleSite/public/
 # Node
 node_modules/
 .Rproj
+.Rproj.user
