@@ -5,12 +5,24 @@
     <link>/</link>
       <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <description>Satellite Report</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 28 Jun 2018 00:00:00 +0100</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 14 Mar 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>Satellite Report</title>
       <link>/</link>
     </image>
+    
+    <item>
+      <title>Yes!Delft Co-Lab</title>
+      <link>/post/yes-delft-co-lab/</link>
+      <pubDate>Sat, 14 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>/post/yes-delft-co-lab/</guid>
+      <description>
+
+
+&lt;p&gt;I participated on the Yes!Delft Co-Lab in Delft.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Privacy Policy</title>

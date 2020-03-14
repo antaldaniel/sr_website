@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts | Satellite Report</title>
-    <link>/post/</link>
-      <atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
-    <description>Posts</description>
+    <title>team-building | Satellite Report</title>
+    <link>/tags/team-building/</link>
+      <atom:link href="/tags/team-building/index.xml" rel="self" type="application/rss+xml" />
+    <description>team-building</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 14 Mar 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
-      <title>Posts</title>
-      <link>/post/</link>
+      <title>team-building</title>
+      <link>/tags/team-building/</link>
     </image>
     
     <item>
