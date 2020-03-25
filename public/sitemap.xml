@@ -8,11 +8,6 @@
   </url>
   
   <url>
-    <loc>/</loc>
-    <lastmod>2020-03-14T20:55:37+01:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/tags/</loc>
     <lastmod>2020-03-14T20:55:37+01:00</lastmod>
   </url>
@@ -28,7 +23,52 @@
   </url>
   
   <url>
+    <loc>/tags/open-data/</loc>
+    <lastmod>2020-02-13T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/project/opendata/</loc>
+    <lastmod>2020-02-13T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/project/</loc>
+    <lastmod>2020-02-13T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/ceemid/</loc>
+    <lastmod>2019-02-27T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/project/musicobservatory/</loc>
+    <lastmod>2019-02-27T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/music-industry/</loc>
+    <lastmod>2019-02-27T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/observatory/</loc>
+    <lastmod>2019-02-27T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/surveys/</loc>
+    <lastmod>2019-02-27T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/privacy/</loc>
+    <lastmod>2018-06-28T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/</loc>
     <lastmod>2018-06-28T00:00:00+01:00</lastmod>
   </url>
   
