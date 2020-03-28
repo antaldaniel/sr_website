@@ -6,7 +6,7 @@ title = "Reproducible Consulting"
 date = 2020-03-27T09:00:00
 
 # Project summary to display on homepage.
-summary = "Professionals in advisory positions, such as management consultants, policy consultants and evaluators, grant designers and evaluators, investment advisors or competition law practitioners must adhere to strict ethical guidelines, professional standards and audit by external organizations, regulators and courts."
+summary = "Making sure that your recommendations are confirmable and auditable."
 
 # Tags: can be used for filtering projects.
 tags = ["reproducible-research", "reproducible-consulting"]
