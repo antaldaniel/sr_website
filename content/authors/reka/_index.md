@@ -61,7 +61,6 @@ email: ""
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
 - Founders
-- Team
 ---
 
 Reka is a localization expert who works with a history of language localization and desktop publishing, and a curator of photography.  Her experience is important to create reproducible localization workflows for multilangage projects and products. She holds an MSc in Social Policy and M.A. in Photography and Film Studies. 

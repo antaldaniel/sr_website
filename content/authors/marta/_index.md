@@ -1,6 +1,7 @@
 ---
 # Display name
 title: Marta
+name: Marta
 
 # Username (this should match the folder name)
 authors:
