@@ -13,32 +13,44 @@
     </image>
     
     <item>
-      <title>Music Observatory</title>
+      <title>Data Observatory</title>
       <link>/project/musicobservatory/</link>
       <pubDate>Wed, 27 Feb 2019 00:00:00 +0100</pubDate>
       <guid>/project/musicobservatory/</guid>
-      <description>&lt;p&gt;
+      <description>&lt;p&gt;Data Observatories are collaborations of research institutes, industry, universities and European policymakers to provide an industry/policy area with continous data collection and dissemmination.  Satellite Report grew out of a such an observatory, 
+&lt;a href=&#34;https://ceemid.eu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CEEMID&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;data-observatories&#34;&gt;Data Observatories&lt;/h2&gt;
+&lt;p&gt;A few examples:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;The 
+&lt;a href=&#34;https://www.eafo.eu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;European Alternative Fuels Observatory&lt;/a&gt; is an European Commission funded initiative which provides open and free information, amongst others to support Member States with the implementation of EU Directive 2014/94 on the deployment of alternative fuels infrastructure. The EAFO is maintained by the 
+&lt;a href=&#34;https://www.eafo.eu/knowledge-center/consortium&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;EAFO Consortium&lt;/a&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The 
+&lt;a href=&#34;https://www.energypoverty.eu/about/about-observatory&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;EU Energy Poverty Observatory&lt;/a&gt; (EPOV) is an initiative by the European Commission to help Member States in their efforts to combat energy poverty. It exists to improve the measuring, monitoring and sharing of knowledge and best practice on energy poverty, and it is developed by a consortium of universities, think tanks, and the business sector.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The 
+&lt;a href=&#34;https://www.clustercollaboration.eu/eu-initiatives/european-cluster-observatory&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;European Observatory for Clusters and Industrial Change&lt;/a&gt; to help Europe&amp;rsquo;s regions and countries in designing better and more evidence-based cluster policies and initiatives. This platform is funded by the EU programme for
+the Competitiveness of Enterprises and SMEs (COSME).&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The 
+&lt;a href=&#34;http://www.clusterobservatory.eu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Cluster Observatory&lt;/a&gt; of the Center for Strategy and Competitiveness at the Stockholm School of Economics, which started out originally as the European Cluster Observatory.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
 &lt;a href=&#34;https://ceemid.eu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CEEMID&lt;/a&gt; is a data integration system that could provide to be a model and starting point of building a 
 &lt;a href=&#34;https://documentation.ceemid.eu/index.php?title=European_Music_Observatory&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;European Music Observatory&lt;/a&gt; based on open data, open-source software using best statistics, data science and AI practices. CEEMID has created thousands of high-value, hard music industry indicators using open data sources, industry data sources, surveys and various APIs to relevant other data sources. (More on 
 &lt;a href=&#34;https://ceemid.eu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ceemid.eu&lt;/a&gt; website.)&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 &lt;p&gt;CEEMID is aiming to transfer thousands of indicators and a verifiable, open-source software that creates them to the European Music Observatory to give Europe-wide acces timely, reliable, actionable statistics and indicators for the music industry, policymakers and music professionals. (Read more about our 
 &lt;a href=&#34;https://documentation.ceemid.eu/index.php?title=Main_Page#Data_Coverage&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;data coverage&lt;/a&gt;)&lt;/p&gt;
-&lt;p&gt;Satellite Report is aiming to support this transition, and at the same time, create new data products for other creative industries.&lt;/p&gt;
-&lt;h2 id=&#34;data-coverage&#34;&gt;Data Coverage&lt;/h2&gt;
-&lt;p&gt;Our primary goal is to provide thousands of indicators for the three pillars of the European Music Observatory (See 
-&lt;a href=&#34;https://danielantal.eu/presentation/ceemid-observatory&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;presentation&lt;/a&gt;.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Pillar 1: 
-&lt;a href=&#34;https://documentation.ceemid.eu/index.php?title=Music_Economy_of_Europe&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Music Economy of Europe&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Pillar 2: 
-&lt;a href=&#34;https://documentation.ceemid.eu/index.php?title=Music_Diversity_and_Circulation&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Music Diversity and Circulation&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Pillar 3: 
-&lt;a href=&#34;https://documentation.ceemid.eu/index.php?title=Music,_Society_and_Citizenship&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Music, Society and Citizenship&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Pillar 4: input data for business and technical innovation, i.e. the 
-&lt;a href=&#34;https://documentation.ceemid.eu/index.php?title=Innovation_pillar&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Innovation pillar&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Because we cover all areas of innovative uses (predictive AI modelling, forecasting, royalty setting and pricing, audience targetting, policy indicators) we believe that further data domains must be covered.&lt;/p&gt;
-&lt;p&gt;We believe that a very large segment of CEEMID&amp;rsquo;s and the European Music Observatory&amp;rsquo;s data coverage is based on public-interest data that is collected by public authorities. Therefore, CEEMID was based on the regulatory framework provided by the Directive on open data and the re-use of public sector information provides a common legal framework for a European market for government-held data (public sector information). It a regulatory framework that is built around two key pillars of the internal market: transparency and fair competition.  In our view, these principles should apply to European Music Observatory, too.&lt;/p&gt;
+&lt;p&gt;Satellite Report is aiming to support this transition, and at the same time, create new data products for other creative industries. See 
+&lt;a href=&#34;http://demoobservatory.ceemid.eu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;our call for partners&lt;/a&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;open-source-open-data-open-collaboration&#34;&gt;Open source, open data, open collaboration&lt;/h2&gt;
 &lt;p&gt;We believe that the European Music Observatory must rely on open-source statistical software written in the R statistical language like CEEMID. (Read 
 &lt;a href=&#34;https://documentation.ceemid.eu/index.php?title=Open-source_software&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;why&lt;/a&gt;.)&lt;/p&gt;
