@@ -31,6 +31,9 @@ education:
   - course: M.Sc. Business Analytics
     institution: CEU
     year: 2009
+  - course: M.Sc. Economics
+    institution: Cambridge University
+    year: 1995
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons

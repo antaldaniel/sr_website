@@ -28,9 +28,12 @@ topics:
 
 education:
   courses:
-  - course: in Photography and Film Studies
+  - course: MA in Photography and Film Studies
     institution: Leiden University
-    year: 2018
+    year: 2017
+  - course: MSc in Social Policy
+    institution: Leiden University
+    year: 2008
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons

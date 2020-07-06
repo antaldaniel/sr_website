@@ -31,6 +31,12 @@ education:
   - course: PhD in Sociology
     institution: Ohio State University
     year: 2017
+  - course: MA in Cultural Studies of Central Eastern Europe
+    institution: University of Warsaw
+    year: 2009
+  - course: MSc in Economics
+    institution: Warsaw School of Economics
+    year: 2007
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
