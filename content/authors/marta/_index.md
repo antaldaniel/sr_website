@@ -70,4 +70,4 @@ user_groups:
 - Team
 ---
 
-Marta is an experienced researcher who is specialized on harmonizing data from primary data sources, particularly surveys. She is specialized on quantitative methods for comparative and cross-national research and survey data harmonization and comparability. Her work is particuarly important in integrating market research and scientific research data into larger data assets to understand international comparison or changes over time. She is a co-author of the [eurobarometer package](publication/eurobarometer_2020/).
+Marta is an experienced researcher and expert in harmonizing data from primary data sources, particularly surveys. She is specialized on quantitative methods for comparative and cross-national research and survey data harmonization and comparability. Her work is particuarly important in integrating market research and scientific research data into larger data assets to understand international comparison or changes over time. She is a co-author of the [eurobarometer package](publication/eurobarometer_2020/).
