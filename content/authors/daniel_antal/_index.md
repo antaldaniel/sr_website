@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Daniel Antal, CFA
+title: Daniel Antal, CFA
 
 # Username (this should match the folder name)
 authors:

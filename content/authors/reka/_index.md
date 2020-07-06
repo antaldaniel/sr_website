@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Reka
+title: Reka
 
 # Username (this should match the folder name)
 authors:
