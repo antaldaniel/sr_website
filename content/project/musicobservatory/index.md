@@ -44,7 +44,6 @@ url_code = ""
 +++
 
 Data Observatories are collaborations of research institutes, industry, universities and European policymakers to provide an industry/policy area with continous data collection and dissemmination.  Satellite Report grew out of a such an observatory, [CEEMID](https://ceemid.eu/). 
-
 ## Data Observatories
 
 A few examples:
