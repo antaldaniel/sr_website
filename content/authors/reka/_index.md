@@ -47,7 +47,7 @@ social:
   link: 
 - icon: github
   icon_pack: fab
-  link: https://github.com/antaldaniel
+  link: 
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
@@ -63,4 +63,4 @@ user_groups:
 - Founders
 ---
 
-Reka is a localization experts who works with a history of language localization and desktop publishing, and a curator of photography.  Her experience is important to create reproducible localization workflows for multilangage projects and products. She holds an MSc in Social Policy and M.A. in Photography and Film Studies. 
+Reka is a localization expert who works with a history of language localization and desktop publishing, and a curator of photography.  Her experience is important to create reproducible localization workflows for multilangage projects and products. She holds an MSc in Social Policy and M.A. in Photography and Film Studies. 
