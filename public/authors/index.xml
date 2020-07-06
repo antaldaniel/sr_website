@@ -33,7 +33,18 @@
       <link>/author/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/author/</guid>
-      <description>&lt;p&gt;Our mission is to create actionable business and policy indicators with the help of advanced econometrics and machine learning using automated data ingestion and integration.  Our target group are high value-added, small enterprises, particularly in the music, film, media industry and/or management &amp;amp; policy consulting serving such industries, where organizations or even their consultants do not have internal research and development, market research and data science capacities.&lt;/p&gt;
+      <description>&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Reduce working hours on errorprone, boring elements of research, complience and documentation jobs.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Increase the available information set and lower data acquisition costs.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Correctly join and integrate large datasets for automated modelling, machine learning and other advanced analytics techniques.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Our mission is to create actionable business and policy indicators with the help of advanced econometrics and machine learning using automated data ingestion and integration.  Our target group are high value-added, small enterprises, particularly in the music, film, media industry and/or management &amp;amp; policy consulting serving such industries, where organizations or even their consultants do not have internal research and development, market research and data science capacities.&lt;/p&gt;
 &lt;p&gt;Our data analytics applications are reviewable and reproducible, which allows independent assessment and duplication of our results. This is a guarantee of high quality and security:  our apps create data products that remain error-free after validation, and during validation any errors can be safely and quickly corrected. We are creating applications that are confirmable and auditable. These are usually required by the ethical guidelines and professional standards of our users.&lt;/p&gt;
 </description>
     </item>
@@ -52,7 +63,8 @@
       <link>/author/istvan/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/author/istvan/</guid>
-      <description>&lt;p&gt;Istvan is an experienced management consultant who works with advanced data analytics particularly in the energy sector and in macroeconomics. He is a contributor to the regions package, and holds an M.Sc. Economics and an M.Sc. Business Analytics degree.&lt;/p&gt;
+      <description>&lt;p&gt;Istvan is an experienced management consultant who works with advanced data analytics particularly in the energy sector and in macroeconomics. He is a contributor to the 
+&lt;a href=&#34;publication/regions_2020/&#34;&gt;regions package&lt;/a&gt;, and holds an M.Sc. Economics and an M.Sc. Business Analytics degree.&lt;/p&gt;
 </description>
     </item>
     
@@ -61,7 +73,8 @@
       <link>/author/marta/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/author/marta/</guid>
-      <description>&lt;p&gt;Marta is an experienced researcher who is specialized on harmonizing data from primary data sources, particularly surveys. She is specialized on quantitative methods for comparative and cross-national research and survey data harmonization and comparability. Her work is particuarly important in integrating market research and scientific research data into larger data assets to understand international comparison or changes over time. She is a co-author of the eurobarometer package. She holds a PhD Ph.D. in Sociology, an M.A. in Cultural Studies of Central Eastern Europe &amp;amp; an M.A. in Economics.&lt;/p&gt;
+      <description>&lt;p&gt;Marta is an experienced researcher who is specialized on harmonizing data from primary data sources, particularly surveys. She is specialized on quantitative methods for comparative and cross-national research and survey data harmonization and comparability. Her work is particuarly important in integrating market research and scientific research data into larger data assets to understand international comparison or changes over time. She is a co-author of the 
+&lt;a href=&#34;publication/eurobarometer_2020/&#34;&gt;eurobarometer package&lt;/a&gt;. She holds a PhD Ph.D. in Sociology, an M.A. in Cultural Studies of Central Eastern Europe &amp;amp; an M.A. in Economics.&lt;/p&gt;
 </description>
     </item>
     

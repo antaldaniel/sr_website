@@ -67,4 +67,4 @@ user_groups:
 - Team
 ---
 
-Istvan is an experienced management consultant who works with advanced data analytics particularly in the energy sector and in macroeconomics. He is a contributor to the regions package, and holds an M.Sc. Economics and an M.Sc. Business Analytics degree. 
+Istvan is an experienced management consultant who works with advanced data analytics particularly in the energy sector and in macroeconomics. He is a contributor to the [regions package](publication/regions_2020/), and holds an M.Sc. Economics and an M.Sc. Business Analytics degree. 
