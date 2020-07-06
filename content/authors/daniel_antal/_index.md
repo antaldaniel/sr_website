@@ -61,6 +61,7 @@ email: ""
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
 - Founders
+- Team
 ---
 
 Daniel Antal is an experienced management consultant who applies a thoroughly professional approach based in economics, finance and data science in his practice. As a quantitatively trained financial economist, he uses a variety of sound valuation methods, corporate finance models, forecasting tools and economic impact analysis for my recommendations, and I apply the standards and ethical guidelines of the Chartered Financial Analyst Institute. 
