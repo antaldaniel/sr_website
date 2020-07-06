@@ -411,9 +411,9 @@ Relabelling&lt;/a&gt;&lt;/li&gt;
     
     <item>
       <title>Automated Reporting</title>
-      <link>/project/opendata/</link>
+      <link>/project/reporting/</link>
       <pubDate>Thu, 13 Feb 2020 00:00:00 +0100</pubDate>
-      <guid>/project/opendata/</guid>
+      <guid>/project/reporting/</guid>
       <description>&lt;p&gt;Our &lt;strong&gt;reproducible reports&lt;/strong&gt; are automated, self-refreshing documents, that contain data pipelines to the original data sources, the analytical code and the narrative assessment in a single file.  These reports are saving potentally thousands of error-prone human working during the compilation of very complex technical documentations, such as regulatory filings or complex research documentations.&lt;/p&gt;
 &lt;p&gt;Because they are retrieving the latest available data from the Client&amp;rsquo;s internal systems and from external data sources, they can be re-freshed daily, weekly, monthly or annually. The program is refreshing the data visualizatoin, the data tables, the data citations and bibliography, and they re-create the statistical and descriptive technical annexes at every compilation.&lt;/p&gt;
 &lt;h2 id=&#34;advantages-of-reproducible-reporting&#34;&gt;Advantages of reproducible reporting&lt;/h2&gt;
