@@ -5,12 +5,397 @@
     <link>/</link>
       <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <description>Satellite Report</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 28 Jun 2018 00:00:00 +0100</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020</copyright><lastBuildDate>Thu, 25 Jun 2020 16:00:00 +0200</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>Satellite Report</title>
       <link>/</link>
     </image>
+    
+    <item>
+      <title>eurobarometer R package</title>
+      <link>/publication/eurobarometer_2020/</link>
+      <pubDate>Thu, 25 Jun 2020 16:00:00 +0200</pubDate>
+      <guid>/publication/eurobarometer_2020/</guid>
+      <description>&lt;p&gt;Please review the 
+&lt;a href=&#34;http://eurobarometer.danielantal.eu/articles/workflow.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;workflow&lt;/a&gt; here.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>regions R package</title>
+      <link>/publication/regions_2020/</link>
+      <pubDate>Wed, 03 Jun 2020 17:00:00 +0200</pubDate>
+      <guid>/publication/regions_2020/</guid>
+      <description>&lt;h2 id=&#34;installation&#34;&gt;Installation&lt;/h2&gt;
+&lt;p&gt;You can install the development version from
+
+&lt;a href=&#34;https://github.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub&lt;/a&gt; with:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;devtools::install_github(&amp;quot;rOpenGov/regions&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;or the released version from CRAN:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;install.packages(&amp;quot;devtools&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;
+&lt;a href=&#34;http://regions.danielantal.eu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;regions&lt;/a&gt; currently takes care of 20,000 sub-divisional boundary changes in Europe since 1999. Comparing departments of France in 2013, with 2007 vojvodinas of Poland and 2018 megyék in Hungary? This extremely errorprone work is automated, as a result, you can compare 110-260 regions for far better analysis. regions was downloaded about 600 researchers in the first month after release.&lt;/p&gt;
+&lt;p&gt;You can review the complete package documentation on
+
+&lt;a href=&#34;http://regions.danielantal.eu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;regions.danielantal.eu&lt;/a&gt;. If you find
+any problems with the code, please raise an issue on
+
+&lt;a href=&#34;https://github.com/antaldaniel/regions&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Github&lt;/a&gt;. Pull requests are
+welcome if you agree with the 
+&lt;a href=&#34;https://contributor-covenant.org/version/2/0/CODE_OF_CONDUCT.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Contributor Code of
+Conduct&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;If you use &lt;code&gt;regions&lt;/code&gt; in your work, please 
+&lt;a href=&#34;https://doi.org/10.5281/zenodo.3825696&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;cite the
+package&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;motivation&#34;&gt;Motivation&lt;/h2&gt;
+&lt;p&gt;Working with sub-national statistics has many benefits. In policymaking or in social sciences, it is a common practice to compare national statistics, which can be hugely misleading. The United States of America, the Federal Republic of Germany, Slovakia and Luxembourg are all countries, but they differ vastly in size and social homogeneity. Comparing Slovakia and Luxembourg to the federal states or even regions within Germany, or the states of Germany and the United States can provide more adequate insights. Statistically, the similarity of the aggregation level and high number of observations can allow more precise control of model parameters and errors.&lt;/p&gt;
+&lt;p&gt;The advantages of switching from a national level of the analysis to a
+sub-national level comes with a huge price in data processing,
+validation and imputation. The package Regions aims to help this
+process.&lt;/p&gt;
+&lt;p&gt;This package is an offspring of the
+
+&lt;a href=&#34;http://ropengov.github.io/eurostat/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;eurostat&lt;/a&gt; package on
+
+&lt;a href=&#34;http://ropengov.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;rOpenGov&lt;/a&gt;. It started as a tool to validate and re-code regional Eurostat statistics, but it aims to be a general solution for all sub-national statistics. It will be developed parallel with other rOpenGov packages.&lt;/p&gt;
+&lt;h2 id=&#34;sub-national-statistics-have-many-challenges&#34;&gt;Sub-national Statistics Have Many Challenges&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Frequent boundary changes&lt;/strong&gt;: as opposed to national boundaries,
+the territorial units, typologies are often change, and this makes
+the validation and recoding of observation necessary across time.
+For example, in the European Union, sub-national typologies change
+about every three years and you have to make sure that you compare
+the right French region in time, or, if you can make the time-wise
+comparison at all.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Hierarchical aggregation and special imputation&lt;/strong&gt;: missingness is
+very frequent in sub-national statistics, because they are created
+with a serious time-lag compared to national ones, and because they
+are often not back-casted after boundary changes. You cannot use
+standard imputation algorithms because the observations are not
+similarly aggregated or averaged. Often, the information is
+seemingly missing, and it is present with an obsolete typology code.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;package-functionality&#34;&gt;Package functionality&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Generic vocabulary translation and joining functions for
+geographically coded data&lt;/li&gt;
+&lt;li&gt;Keeping track of the boundary changes within the European Union
+between 1999-2021&lt;/li&gt;
+&lt;li&gt;Vocabulary translation and joining functions for standardized
+European Union statistics&lt;/li&gt;
+&lt;li&gt;Vocabulary translation for the &lt;code&gt;ISO-3166-2&lt;/code&gt; based Google data and
+the European Union&lt;/li&gt;
+&lt;li&gt;Imputation functions from higher aggregation hierarchy levels to
+lower ones, for example from &lt;code&gt;NUTS1&lt;/code&gt; to &lt;code&gt;NUTS2&lt;/code&gt; or from &lt;code&gt;ISO-3166-1&lt;/code&gt;
+to &lt;code&gt;ISO-3166-2&lt;/code&gt; (impute down)&lt;/li&gt;
+&lt;li&gt;Imputation functions from lower hierarchy levels to higher ones
+(impute up)&lt;/li&gt;
+&lt;li&gt;Aggregation function from lower hierarchy levels to higher ones, for
+example from NUTS3 to &lt;code&gt;NUTS1&lt;/code&gt; or from &lt;code&gt;ISO-3166-2&lt;/code&gt; to &lt;code&gt;ISO-3166-1&lt;/code&gt;
+(aggregate; under development)&lt;/li&gt;
+&lt;li&gt;Disaggregation functions from higher hierarchy levels to lower ones,
+again, for example from &lt;code&gt;NUTS1&lt;/code&gt; to &lt;code&gt;NUTS2&lt;/code&gt; or from &lt;code&gt;ISO-3166-1&lt;/code&gt; to
+&lt;code&gt;ISO-3166-2&lt;/code&gt; (disaggregate; under development)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;vignettes--articles&#34;&gt;Vignettes / Articles&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://regions.danielantal.eu/articles/Regional_stats.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Working With Regional, Sub-National Statistical
+Products&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://regions.danielantal.eu/articles/validation.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Validating Your
+Typology&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://regions.danielantal.eu/articles/recode.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Recoding And
+Relabelling&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://regions.danielantal.eu/articles/google_mobility_report.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;The Typology Of The Google Mobility Reports
+(COVID-19)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;feedback&#34;&gt;Feedback?&lt;/h2&gt;
+&lt;p&gt;Raise and 
+&lt;a href=&#34;https://github.com/antaldaniel/eurobarometer/issues&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;issue&lt;/a&gt; on Github or 
+&lt;a href=&#34;https://danielantal.eu/#contact&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;get in touch&lt;/a&gt;. Downloaders from CRAN: 
+
+&lt;a href=&#34;https://cran.r-project.org/package=regions&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;img src=&#34;https://cranlogs.r-pkg.org/badges/regions&#34; alt=&#34;metacrandownloads&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>First CEEMID Regional Open Data Release</title>
+      <link>/post/2020-04-16-regional-opendata-release/</link>
+      <pubDate>Thu, 16 Apr 2020 17:00:00 +0200</pubDate>
+      <guid>/post/2020-04-16-regional-opendata-release/</guid>
+      <description>&lt;p&gt;&lt;em&gt;Internet use: participating in social networks (creating user profile, posting messages or other contributions to facebook, twitter, etc.) [percentage of individuals]&lt;/em&gt; shows the development of social media use in the past 10 years in very high detail.  Social media is one of the most important ways to communicate with fans and find audiences for gigs, performances and to share new releases.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/img/dataanimation/internet_use_social_networks.gif&#34; alt=&#34;Social media use 2011-2019&#34;&gt;&lt;/p&gt;
+&lt;p&gt;The chosen dataset is highlighting several new priorities of CEEMID.  This indicator, which is based on a 
+&lt;a href=&#34;https://appsso.eurostat.ec.europa.eu/nui/show.do?dataset=isoc_r_iuse_i&amp;amp;lang=en&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Eurostat statistical product&lt;/a&gt;, has a much higher data quality than the Eurostat release, it is easier to use, and goes beyond the detail of national statistics.  It contains data on 411 territories in Europe, including countries, provinces and smaller regions, even some metropolitan areas.&lt;/p&gt;
+&lt;p&gt;The dataset is available on the European open research data repository, 
+&lt;a href=&#34;https://zenodo.org/record/3754574#.XpimX8gzbIU&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Zenodo&lt;/a&gt;. It will be updated annually. 
+&lt;a href=&#34;https://doi.org/10.5281/zenodo.3754574&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;img src=&#34;https://zenodo.org/badge/DOI/10.5281/zenodo.3754574.svg&#34; alt=&#34;DOI&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The processing information is available in the dataset.  First, we have used our open source software to correct the regional boundary changes during the decade (see 
+&lt;a href=&#34;/post/2020-02-13-regional_eurostat/&#34;&gt;Programatic Approach To Work With European Regional Data Panels&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;When data was missing in the end of the dataset, we used the last observation carry forward, when in the beginning, the next observation carry backwards data.  Gaps in the data were interpolated using linear interpolation. Whenever data was available on a larger (provincial level), we imputed it to the smaller regional units.&lt;/p&gt;
+&lt;p&gt;The data contains standard national / regional references according the European NUTS2013 standard for backwards compatibility. Further documentation will be available on our methodology on the 
+&lt;a href=&#34;https://documentation.ceemid.eu&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;documentation.ceemid.eu&lt;/a&gt; wiki website.&lt;/p&gt;
+&lt;p&gt;At last, the data was put into a table that complies with the 
+&lt;a href=&#34;https://www.jstatsoft.org/article/view/v059i10&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;tidy data&lt;/a&gt; principles for easier processing on computers and immediate use in spreadsheet applications.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Use this in your article? Further research? Collaboration? Let&amp;rsquo;s get in touch on 
+&lt;a href=&#34;https://www.linkedin.com/in/antaldaniel/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;LinkedIn&lt;/a&gt;, 
+&lt;a href=&#34;https://twitter.com/antaldaniel&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Twitter&lt;/a&gt;, or via 
+&lt;a href=&#34;https://danielantal.eu/#contact&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;danielantal.eu&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+
+
+
+
+
+
+
+
+  
+  
+
+
+&lt;div class=&#34;gallery&#34;&gt;
+
+  
+  
+  
+  
+    
+    
+    
+    
+    
+      
+        
+      
+    
+  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;/post/2020-04-16-regional-opendata-release/gallery/ceemid_regional_social_media_use_2011.jpg&#34; data-caption=&#34;Internet use: participating in social networks (2011)&#34;&gt;
+  &lt;img data-src=&#34;/post/2020-04-16-regional-opendata-release/gallery/ceemid_regional_social_media_use_2011_hua485aaf22d1f04af04808580e8565870_238711_0x190_resize_q90_lanczos.jpg&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;263&#34; height=&#34;190&#34;&gt;
+  &lt;/a&gt;
+  
+    
+    
+    
+    
+    
+      
+        
+      
+    
+  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;/post/2020-04-16-regional-opendata-release/gallery/ceemid_regional_social_media_use_2015.jpg&#34; data-caption=&#34;Internet use: participating in social networks (2015)&#34;&gt;
+  &lt;img data-src=&#34;/post/2020-04-16-regional-opendata-release/gallery/ceemid_regional_social_media_use_2015_hua485aaf22d1f04af04808580e8565870_246037_0x190_resize_q90_lanczos.jpg&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;263&#34; height=&#34;190&#34;&gt;
+  &lt;/a&gt;
+  
+    
+    
+    
+    
+    
+      
+        
+      
+    
+  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;/post/2020-04-16-regional-opendata-release/gallery/ceemid_regional_social_media_use_2019.jpg&#34; data-caption=&#34;Internet use: participating in social networks (2019)&#34;&gt;
+  &lt;img data-src=&#34;/post/2020-04-16-regional-opendata-release/gallery/ceemid_regional_social_media_use_2019_hua485aaf22d1f04af04808580e8565870_250355_0x190_resize_q90_lanczos.jpg&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;263&#34; height=&#34;190&#34;&gt;
+  &lt;/a&gt;
+  
+    
+    
+    
+    
+    
+      
+        
+      
+    
+  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;/post/2020-04-16-regional-opendata-release/gallery/metadata_ceemid_regional_social_media_use_2011.jpg&#34; data-caption=&#34;CEEMID metadata summary (2011)&#34;&gt;
+  &lt;img data-src=&#34;/post/2020-04-16-regional-opendata-release/gallery/metadata_ceemid_regional_social_media_use_2011_hua485aaf22d1f04af04808580e8565870_247818_0x190_resize_q90_lanczos.jpg&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;263&#34; height=&#34;190&#34;&gt;
+  &lt;/a&gt;
+  
+    
+    
+    
+    
+    
+      
+        
+      
+    
+  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;/post/2020-04-16-regional-opendata-release/gallery/metadata_ceemid_regional_social_media_use_2015.jpg&#34; data-caption=&#34;CEEMID metadata summary (2015)&#34;&gt;
+  &lt;img data-src=&#34;/post/2020-04-16-regional-opendata-release/gallery/metadata_ceemid_regional_social_media_use_2015_hua485aaf22d1f04af04808580e8565870_247520_0x190_resize_q90_lanczos.jpg&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;263&#34; height=&#34;190&#34;&gt;
+  &lt;/a&gt;
+  
+    
+    
+    
+    
+    
+      
+        
+      
+    
+  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;/post/2020-04-16-regional-opendata-release/gallery/metadata_ceemid_regional_social_media_use_2019.jpg&#34; data-caption=&#34;CEEMID metadata summary (2019)&#34;&gt;
+  &lt;img data-src=&#34;/post/2020-04-16-regional-opendata-release/gallery/metadata_ceemid_regional_social_media_use_2019_hua485aaf22d1f04af04808580e8565870_243997_0x190_resize_q90_lanczos.jpg&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;263&#34; height=&#34;190&#34;&gt;
+  &lt;/a&gt;
+  
+
+  
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Comparing Social Distancing in Europe</title>
+      <link>/post/2020-04-15-comparing-social-distancing/</link>
+      <pubDate>Wed, 15 Apr 2020 13:00:00 +0200</pubDate>
+      <guid>/post/2020-04-15-comparing-social-distancing/</guid>
+      <description>&lt;p&gt;People around the world are facing newer and newer exponential charts everyday. We’re all hoping for new information about the progress against the coronavirus. Unfortunately, the vast majority of these charts is meaningless. In fact, 
+&lt;a href=&#34;https://fivethirtyeight.com/features/coronavirus-case-counts-are-meaningless/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;coronavirus case counts are meaningless&lt;/a&gt;, unless they are done with very heavy statistical knowledge, and even then they are very messy. Countries have different testing and hospitalization protocols, death certificating standards, and there are less and more trustworthy governments. We do not really know the severity of the local epidemics and the relative success of public health policies.&lt;/p&gt;
+
+
+
+
+
+
+
+
+  
+  
+
+
+&lt;div class=&#34;gallery&#34;&gt;
+
+  
+  
+  
+  
+    
+    
+    
+    
+    
+      
+        
+      
+    
+  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;/post/2020-04-15-comparing-social-distancing/gallery/countryclusters.jpg&#34; data-caption=&#34;Clustering countries on current lockdown strictness and change&#34;&gt;
+  &lt;img data-src=&#34;/post/2020-04-15-comparing-social-distancing/gallery/countryclusters_huc63f6ee1cc1b69a8e28d2c9e7295fd18_347025_0x190_resize_q90_lanczos.jpg&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;338&#34; height=&#34;190&#34;&gt;
+  &lt;/a&gt;
+  
+    
+    
+    
+    
+    
+      
+        
+      
+    
+  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;/post/2020-04-15-comparing-social-distancing/gallery/difference_summary_en.jpg&#34; data-caption=&#34;Changes in community space use, end of March and early April&#34;&gt;
+  &lt;img data-src=&#34;/post/2020-04-15-comparing-social-distancing/gallery/difference_summary_en_huc7370673eb468102ac3ad5af70997f54_262570_0x190_resize_q90_lanczos.jpg&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;263&#34; height=&#34;190&#34;&gt;
+  &lt;/a&gt;
+  
+    
+    
+    
+    
+    
+      
+        
+      
+    
+  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;/post/2020-04-15-comparing-social-distancing/gallery/work_home_change_EN.jpg&#34; data-caption=&#34;Growth in time spend at home and in the workplace since January&#34;&gt;
+  &lt;img data-src=&#34;/post/2020-04-15-comparing-social-distancing/gallery/work_home_change_EN_huf1bc5f0534491039237e4dc526b79bf4_336010_0x190_resize_q90_lanczos.jpg&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;263&#34; height=&#34;190&#34;&gt;
+  &lt;/a&gt;
+  
+
+  
+&lt;/div&gt;
+&lt;p&gt;Nevertheless, we have some timely information on how people and the economy react to the epidemic, because there are ongoing, frequent, and comparable data sources on various consequences of the epidemic.  A particularly interesting big data source is 
+&lt;a href=&#34;https://www.blog.google/technology/health/covid-19-community-mobility-reports/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Google’s geolocational reporting&lt;/a&gt; on how people’s time spent in homes, workplaces, parks, shopping areas and recreational areas change. Google gets plenty of realtime data from hundreds of millions of people and compares them by days in the week and local time with the ‘baseline’ scenario before the outbreak of the coronavirus.&lt;/p&gt;
+&lt;p&gt;Based on the locational data of various smartphones and application data, we know that people spend 10-15% more time at home since January, and 40-50% less in their workplaces.  Similar data is available for other locations.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/img/post/2020-04-15-covid/work_home_en_small.jpg&#34; alt=&#34;Stay at home or go to the workplace?&#34;&gt;&lt;/p&gt;
+&lt;p&gt;While people are spending less time in the workplace and more at home in every European country, there are significant differences.  Countries in the top left corner, most notable Sweden, switched less from workplaces to homes.  On the bottom right corner, Spain and Italy, which were most hit by the epidemic, are in the most severe form of lockdown.&lt;/p&gt;
+&lt;p&gt;There are some outliers, like Romania, where people stay a lot more at home, but not so much less in the workplaces – probably they cannot afford to stay clear of the job, but they are reducing other activities.  Or, in the case of Germany, people spend a lot more time in parks.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/img/post/2020-04-15-covid/difference_summary_en_small.jpg&#34; alt=&#34;Differences in space use in Europe&#34;&gt;&lt;/p&gt;
+&lt;p&gt;I grouped the countries according to their dynamics.  Looking at Belgium and Luxembourg, we see that they are more locked down than the typical European country, but they are moving up in the first week of April compared to the last week of March. This is very much in line with their improving strain on the health system.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/img/post/2020-04-15-covid/countryclusters_small.jpg&#34; alt=&#34;Clusters of countries&#34;&gt;&lt;/p&gt;
+&lt;p&gt;What is worrying is that there appears to be a significant asynchronicity in the Schengen zone, where people and goods should move around freely.  The peripheric countries, which are less densely populated, often less integrated into the global transport and travel routes, are getting into the local epidemics later, and are acting later.  This is logical from a national point of view, but given that the European economy is very much integrated, it will prolong the pain.  The Netherlands, France and Germany need plenty of seasonal agricultural workers from the Southeast, where the lockdown is just getting really strict.  While some of their regions see improving national epidemic situations, the easing will increase the intensity of the local epidemic if a large number of workers will arrive from countries that are just going into the epidemic.&lt;/p&gt;
+&lt;p&gt;The efficient solution, as many public health officials keep saying, would be a synchronized effort to contain the virus.  The different pace and strictness of social distancing measures will mean that the local epidemics will not be in synchronization, and the countries will re-infect each other, this way prolonging the economic and social cost of this devastating pandemic.  While health policy is a national competence in the European Union, in fact, the European economic and social life is so much integrated, not only within the Schengen Zone, but even with future, prospective and candidate members states in the Balkans, that a far more coordinated public health policy would be required.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Use this in your article? Further research? Collaboration? The data &amp;amp; code is available in a private github repo. Let&amp;rsquo;s get in touch on 
+&lt;a href=&#34;https://www.linkedin.com/in/antaldaniel/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;LinkedIn&lt;/a&gt;, 
+&lt;a href=&#34;https://twitter.com/antaldaniel&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Twitter&lt;/a&gt;, or via 
+&lt;a href=&#34;https://danielantal.eu/#contact&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;danielantal.eu&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Please quote this:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Antal, Daniel (2020): Comparing Social Distancing in Europe (March, April 2020). figshare. Preprint. &lt;a href=&#34;https://doi.org/10.6084/m9.figshare.12124194.v1&#34;&gt;https://doi.org/10.6084/m9.figshare.12124194.v1&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Comparing Social Distancing in Europe</title>
+      <link>/post/yes-delft-co-lab/</link>
+      <pubDate>Wed, 15 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>/post/yes-delft-co-lab/</guid>
+      <description>
+
+
+&lt;p&gt;People around the world are facing newer and newer exponential charts everyday. We’re all hoping for new information about the progress against the coronavirus. Unfortunately, the vast majority of these charts is meaningless. In fact, &lt;a href=&#34;https://fivethirtyeight.com/features/coronavirus-case-counts-are-meaningless/&#34;&gt;coronavirus case counts are meaningless&lt;/a&gt;, unless they are done with very heavy statistical knowledge, and even then they are very messy. Countries have different testing and hospitalization protocols, death certificating standards, and there are less and more trustworthy governments. We do not really know the severity of the local epidemics and the relative success of public health policies.&lt;/p&gt;
+&lt;p&gt;Nevertheless, we have some timely information on how people and the economy react to the epidemic, because there are ongoing, frequent, and comparable data sources on various consequences of the epidemic. A particularly interesting big data source is &lt;a href=&#34;https://www.blog.google/technology/health/covid-19-community-mobility-reports/&#34;&gt;Google’s geolocational reporting&lt;/a&gt; on how people’s time spent in homes, workplaces, parks, shopping areas and recreational areas change. Google gets plenty of realtime data from hundreds of millions of people and compares them by days in the week and local time with the ‘baseline’ scenario before the outbreak of the coronavirus.&lt;/p&gt;
+&lt;p&gt;Based on the locational data of various smartphones and application data, we know that people spend 10-15% more time at home since January, and 40-50% less in their workplaces. Similar data is available for other locations.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/post/2020-04-15-covid19-europe-geolocations_files/figure-html/workhome-1.png&#34; width=&#34;90%&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;While people are spending less time in the workplace and more at home in every European country, there are significant differences. Countries in the top left corner, most notable Sweden, switched less from workplaces to homes. On the bottom right corner, Spain and Italy, which were most hit by the epidemic, are in the most severe form of lockdown.&lt;/p&gt;
+&lt;p&gt;There are some outliers, like Romania, where people stay a lot more at home, but not so much less in the workplaces – probably they cannot afford to stay clear of the job, but they are reducing other activities. Or, in the case of Germany, people spend a lot more time in parks.&lt;/p&gt;
+&lt;div style=&#34;page-break-after: always;&#34;&gt;&lt;/div&gt;
+&lt;p&gt;&lt;img src=&#34;C:/Users/Daniel%20Antal/OneDrive%20-%20Visegrad%20Investments/2020%20Projektek/covid19/plots/difference_summary_en.jpg&#34; width=&#34;90%&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;I grouped the countries according to their dynamics. Looking at Belgium and Luxembourg, we see that they are more locked down than the typical European country, but they are moving up in the first week of April compared to the last week of March. This is very much in line with their improving strain on the health system.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;C:/Users/Daniel%20Antal/OneDrive%20-%20Visegrad%20Investments/2020%20Projektek/covid19/plots/countryclusters.jpg&#34; width=&#34;90%&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;What is worrying is that there appears to be a significant asynchronicity in the Schengen zone, where people and goods should move around freely. The peripheric countries, which are less densely populated, often less integrated into the global transport and travel routes, are getting into the local epidemics later, and are acting later. This is logical from a national point of view, but given that the European economy is very much integrated, it will prolong the pain. The Netherlands, France and Germany need plenty of seasonal agricultural workers from the Southeast, where the lockdown is just getting really strict. While some of their regions see improving national epidemic situations, the easing will increase the intensity of the local epidemic if a large number of workers will arrive from countries that are just going into the epidemic.&lt;/p&gt;
+&lt;p&gt;The efficient solution, as many public health officials keep saying, would be a synchronized effort to contain the virus. The different pace and strictness of social distancing measures will mean that the local epidemics will not be in synchronization, and the countries will re-infect each other, this way prolonging the economic and social cost of this devastating pandemic. While health policy is a national competence in the European Union, in fact, the European economic and social life is so much integrated, not only within the Schengen Zone, but even with future, prospective and candidate members states in the Balkans, that a far more coordinated public health policy would be required.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Use this in your article? Further research? Collaboration? The data &amp;amp; code is available in a private github repo. Let’s get in touch on LinkedIn, Twitter, or via danielantal.eu&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Please quote this:
+&amp;gt; Antal, Daniel (2020): Comparing Social Distancing in Europe (March, April 2020). figshare. Preprint. &lt;a href=&#34;https://doi.org/10.6084/m9.figshare.12124194.v1&#34; class=&#34;uri&#34;&gt;https://doi.org/10.6084/m9.figshare.12124194.v1&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Reproducible Consulting</title>
+      <link>/project/reproducible_consulting/</link>
+      <pubDate>Fri, 27 Mar 2020 09:00:00 +0100</pubDate>
+      <guid>/project/reproducible_consulting/</guid>
+      <description>&lt;h2 id=&#34;reproducible-consulting&#34;&gt;Reproducible consulting&lt;/h2&gt;
+&lt;p&gt;Professionals in advisory positions, such as management consultants, policy consultants and evaluators, grant designers and evaluators, investment advisors or competition law practitioners must adhere to strict ethical guidelines, professional standards and audit by external organizations, regulators and courts.&lt;/p&gt;
+&lt;p&gt;We provide professional organizations with reproducible data applications.  These applications make sure that users of our applications can produce their advice and evaluations in a way that is reviewable and reproducible – which is critical to make internal senior oversight efficient &amp;ndash;, and remain confirmable and auditable externally.&lt;/p&gt;
+&lt;p&gt;Our data analytics applications are reviewable and reproducible, which allows independent assessment and duplication of our results. This is a guarantee of high quality and security:  our apps create data products that remain error-free after validation, and during validation any errors can be safely and quickly corrected.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Reviewability means that our application’s results are can be assessed and judged by our user’s experts, or experts they trust.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Reproducibility means that we are providing data products and tools that allow the exact duplication of our results during assessments.  This makes sure that all logical steps can be verified.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We are creating applications that are confirmable and auditable. These are usually required by the ethical guidelines and professional standards of our users.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Confirmability&lt;/strong&gt; means that using our applications findings leads to the same professional results as other available software and information. Our data products use the open-source statistical programming language R. We provide details about our algorithms and methodology to confirm our results in SPSS or Stata or sometimes even in Excel.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Auditability&lt;/strong&gt; means that our data and software is archived in a way that external auditors can later review, reproduce and confirm our findings.  This is a stricter form of data retention that most organizations apply, because we do not only archive results step-by-step but all computational steps – as if your colleagues would not only save every step in Excel but also their keystrokes.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>Yes!Delft Co-Lab</title>
@@ -35,6 +420,41 @@
 &lt;a href=&#34;https://ec.europa.eu/digital-single-market/en/european-legislation-reuse-public-sector-information&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt; and its importance 
 &lt;a href=&#34;https://www.europeandataportal.eu/sites/default/files/re-using_open_data.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;(pdf)&lt;/a&gt;.)&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Press the tag below to see more examples&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Central &amp; Eastern European Music Industry Report 2020</title>
+      <link>/publication/ceereport_2020/</link>
+      <pubDate>Wed, 29 Jan 2020 16:00:00 +0100</pubDate>
+      <guid>/publication/ceereport_2020/</guid>
+      <description>&lt;p&gt;CEEMID &amp;amp; Consolidated Independent presented and discussed with stakeholders the  
+&lt;a href=&#34;https://danielantal.eu/publication/ceereport_2020/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Central &amp;amp; Eastern European Music Industry Report 2020&lt;/a&gt; as a case-study on national and comparative evidence-based policymaking in the cultural and creative sector on the 
+&lt;a href=&#34;http://creativeflip.creativehubs.net/2019/12/03/flipping-the-odds/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CCS Ecosystems: FLIPPING THE ODDS Conference&lt;/a&gt; – a two-day high-level stakeholder event jointly organized by Geothe-Institute and the DG Education and Culture of the European Commission with the Creative FLIP project.&lt;/p&gt;
+&lt;p&gt;The CEE Report builds on the results of the first 
+&lt;a href=&#34;https://danielantal.eu/publication/hungary_music_industry_2014/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hungarian&lt;/a&gt;, 
+&lt;a href=&#34;https://danielantal.eu/publication/slovak_music_industry_2019/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Slovak&lt;/a&gt;, 
+&lt;a href=&#34;https://danielantal.eu/publication/private_copying_croatia_2019/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Croatian&lt;/a&gt; and 
+&lt;a href=&#34;http://czdev.ceemid.eu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Czech&lt;/a&gt; music industry reports are compared with Armenian, Austrian, Bulgarian, Lithuanian, Serbian and Slovenian data and findings.&lt;/p&gt;
+&lt;p&gt;Our research findings were earlier presented and discussed in Vienna, Prague, Budapest and Bratislava with stakeholders.&lt;/p&gt;
+&lt;p&gt;You can find the earlier presentations in the 
+&lt;a href=&#34;#posts&#34;&gt;blog&lt;/a&gt; section of the website.&lt;/p&gt;
+&lt;h2 id=&#34;executive-summary&#34;&gt;Executive Summary&lt;/h2&gt;
+&lt;p&gt;The first Central European Music Industry Report is the result of a co-operation that started among stakeholders in three EU countries five years ago to measure the economic value added of music – the basis of a modern royalty pricing system. This gave birth to CEEMID, originally the Central &amp;amp; Eastern European Music Industry Databases, a data integration programme that now in 2020, covers all of Europe. CEEMID fulfils similar roles to the planned European Music Observatory and supports all pillars of the future pan-European system.&lt;/p&gt;
+&lt;p&gt;The comparison of Western and Eastern music audiences reveals key demographic differences that make the unchanged adoption of business practices from mature markets in the region questionable. 
+&lt;a href=&#34;http://ceereport2020.ceemid.eu/audience.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Chapter 2&lt;/a&gt; of this report will show these differences and their consequences on music markets, in terms of visiting and acquisition likelihood, frequency, seasonality and purchasing capacity. This is an example of how CEEMID fulfils the role of Pillar 3 (music, society and citizenship) in the planned European Music Observatory.&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&#34;http://ceereport2020.ceemid.eu/supply.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Chapter 3&lt;/a&gt; contrasts market demand with the supply strategies of musicians. CEEMID has been surveying music professionals, including artists, technicians and managers about their working conditions, market conditions and plans for five years across a growing number of countries. In 2019 we invited 100 national and regional stakeholders to distribute our surveys. In some countries, our surveys already have several years of historic data, making the resulting musician database probably the largest ever source of data about how music is produced and how musicians live. We are constantly looking for partners to roll out this survey to new countries in new languages.&lt;/p&gt;
+&lt;p&gt;The CEE region has comparative advantages in big music events like festivals, and it has become one of the most important hubs for cultural tourism in the world. We explain this phenomenon in Chapter 4 by showing the differences in demand composition, demography and supply of venues in the second chapter. The lack of a modern and dense network of permanent music venues gave rise to magnificent music festivals in the CEE. Open’er, Sziget and Exit are among the biggest and best festivals in the world, closely followed by several smaller festivals in all countries. The share of festivals in the live music market is many times higher than in Western Europe and they provide vital export revenues to the local music economies. However, they play a limited role in finding new audiences for local artists, as they are increasingly programming for Western audiences by providing shows of international hits. They can only very partially fill in the gaps left by the small venue problem that hit the emerging markets harder than the UK or Australia, where policy action had been already taken to reverse the decline of the availability of smaller live music venues.&lt;/p&gt;
+&lt;p&gt;On the recording side, our analysis shows that modern digital services are growing at a faster rate than in mature markets. Because of lower repertoire competition, streaming quantities are similar for a typical Austrian, Czech, Hungarian, Polish or Slovak track than in the mature markets. However, revenue growth is limited because of the interplay of several analysed factors. Our analysis of the live and recorded music markets shows that CEEMID fulfils the roles of the Pillar 1 (music economy) of the planned European Music Observatory.&lt;/p&gt;
+&lt;p&gt;Most recorded music sales revenue in the region comes from streaming platforms, just like in the mature markets. Successful sales strategies require a solid knowledge of the global marketplace and the ability to understand and train sales algorithms. Micro-enterprises, such as independent labels, have very limited ability to cope with these functions, given that they do not have market research or R&amp;amp;D functions. CEEMID and Consolidated Independent have started initiating open, national R&amp;amp;D consortia to create the necessary concentration in data assets, analytical capacity and budgets to close this gap. As a first step, CEEMID and Consolidated Independent have created a large, independent music dataset based on hundreds of millions of royalty statement entries to create our market indexes, styled after stock market and bond market indexes. Streaming opportunities are fast changing as roll-out of streaming services is happening at a different rate in various territories; subscription charges and the exchange rate to the producer’s currency vary and repertoire competition emerges in the market. Our volume and revenue indexes in 
+&lt;a href=&#34;http://ceereport2020.ceemid.eu/export.html#recexport&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Chapter 5.3&lt;/a&gt; are aimed at creating sales algorithms that optimize sales volumes and expected revenues. We believe that this analysis also reveals that CEEMID partially fulfils the roles of Pillar 2 (music diversity and circulation) and feeds important data into Pillar 4 (innovation).&lt;/p&gt;
+&lt;p&gt;The region has far bigger untapped potential than most music business executives believe. Households in the region spend a significantly lower share of their recreational budget on music than their Western, Southern or Nordic peers. The region has a lot of untapped cultural purchasing power because servicing is particularly challenging in both the live and recorded sides of the business.&lt;/p&gt;
+&lt;p&gt;This upside potential cannot be tapped without better pricing. Royalty levels are often very low in the region. Due to many combined effects analysed in this short report, the gap between royalties earned in the CEE and Western Europe is several times bigger than the difference in GDP or national average wage. These gaps are partly caused by special interests preventing collective management from charging appropriate tariffs for restaurants, media companies or electronic appliance importers and manufacturers, and partly by unfavourable taxation of cultural products and services.&lt;/p&gt;
+&lt;p&gt;CEEMID was designed to create economic evidence on royalty pricing, private copying compensation and the creation of economic value added in the industry. In the first Hungarian Music Industry Report of ProArt and in the first Slovak Music Industry Report we have shown that economic and taxation policies of the CEE countries aimed to support car and electronics manufacturing create a distorted, unfavourable economic regime for creative industries. We want to help local stakeholders with economic evidence to correct these discriminatory policies during the overhaul of the EU VAT system. We have been helping various national organizations with economic evidence, presented in the light of latest EU jurisprudence, to improve their pricing activities. Our thousands of indicators were also used in ex ante evaluations of granting schemes.&lt;/p&gt;
+&lt;p&gt;In 2020, all EU member states will change their copyright administration legislation because of the national implementations of the 2019/790 Digital Single Market directive. CEEMID provides evidence in several countries about the size and impact mechanism of the value transfer, and generally the widespread use of the copyright exemption for private copying. We believe that the thousands of pan-European music industry indicators that we have aggregated over the five years will play a vital role in these regulatory processes.&lt;/p&gt;
+&lt;p&gt;CEEMID fulfils its roles with a very thorough exploitation of the EU’s 17-years-old Open Data regime with the re-use of public sector information, and a very careful mapping of the music industry. These maps help us conduct annual surveys among musicians and the audience, and they help us connect (always with pre-approval and with a user mandate) to industry databases. We do not only cover the EU countries, but increasingly (potential) candidate countries and neighbourhood countries.&lt;/p&gt;
+&lt;p&gt;In our vision, this data collection and integration, i.e. Pillars 1-3 should be available for all music stakeholders, should remain public and publicly funded. The last Pillar of the observatory, innovation, is where private entities should compete. The founders of CEEMID and Consolidated Independent believe that this report demonstrates the business and policy benefits of such a system with the analysis of the Central &amp;amp; Eastern European music markets. We believe that this way CEEMID is in a position to serve most of the planned functions of the envisioned European Music Observatory, and we are looking for ways to make either our thousands of indicators, or our data collection and integration software open source and available for all stakeholders in the EU and its neighbours. CEEMID was born out of necessity to level out the different levels of public research and statistical coverage of the EU member states. In our view, private entities in the future should focus their investments in Pillar 4 of the planned observatory, i.e. competing in innovation with creating new models, algorithms and services based on data that is available throughout the European Union without giving further advantage to the already mature markets.&lt;/p&gt;
 </description>
     </item>
     
@@ -101,6 +521,16 @@
 &lt;a href=&#34;https://danielantal.eu/post/how_many_ever_pay/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;blog post&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>iotables R package</title>
+      <link>/publication/iotables_2018/</link>
+      <pubDate>Sat, 22 Dec 2018 11:00:00 +0100</pubDate>
+      <guid>/publication/iotables_2018/</guid>
+      <description>&lt;p&gt;
+&lt;a href=&#34;http://iotables.ceemid.eu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;iotables&lt;/a&gt; processes all the symmetric input-output tables of the EU member states, and calculates direct, indirect and induced effects, multipliers for GVA, employment, taxation. These are important inputs into policy evaluation, business forecasting, or granting/development indicator design. iotables is used by about 800 experts around the world.&lt;/p&gt;
 </description>
     </item>
     

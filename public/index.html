@@ -206,6 +206,44 @@
 
 
 
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-1214068-18"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-1214068-18', {});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
   
 
 
@@ -236,7 +274,7 @@
   <meta property="og:description" content=""><meta property="og:image" content="img/map[gravatar:%!s(bool=false) shape:circle]">
   <meta property="twitter:image" content="img/map[gravatar:%!s(bool=false) shape:circle]"><meta property="og:locale" content="en-us">
   
-    <meta property="og:updated_time" content="2018-06-28T00:00:00&#43;01:00">
+    <meta property="og:updated_time" content="2020-06-25T16:00:00&#43;02:00">
   
 
   
@@ -554,8 +592,6 @@
 
 
 
-
-
 <span class="js-widget-page d-none"></span>
 
 
@@ -623,7 +659,7 @@
 
       
       
-      <img class="avatar avatar-circle" src="/authors/admin/avatar_hu52a603635ecebd45650b162dadabb4e5_12861_270x270_fill_q90_lanczos_center.jpg" alt="Satellite Report">
+      <img class="avatar avatar-circle" src="/author/avatar_hucef3418533a5fd95ef60dd9f8f61d5bb_30332_270x270_fill_q90_lanczos_center.jpg" alt="Satellite Report">
       
 
       <div class="portrait-title">
@@ -632,9 +668,9 @@
 
         
         <h3>
-          
+          <a href="www.satellitereport.com" target="_blank" rel="noopener">
           <span>Satellite Report BV</span>
-          
+          </a>
         </h3>
         
       </div>
@@ -717,6 +753,7 @@
     <h1>About</h1>
 
     <p>Our mission is to create actionable business and policy indicators with the help of advanced econometrics and machine learning using automated data ingestion and integration.  Our target group are high value-added, small enterprises, particularly in the music, film, media industry and/or management &amp; policy consulting serving such industries, where organizations or even their consultants do not have internal research and development, market research and data science capacities.</p>
+<p>Our data analytics applications are reviewable and reproducible, which allows independent assessment and duplication of our results. This is a guarantee of high quality and security:  our apps create data products that remain error-free after validation, and during validation any errors can be safely and quickly corrected. We are creating applications that are confirmable and auditable. These are usually required by the ethical guidelines and professional standards of our users.</p>
 
 
     <div class="row">
@@ -1077,6 +1114,297 @@
   <div class="media-body">
 
     <h3 class="article-title mb-0 mt-0">
+      <a href="/post/2020-04-16-regional-opendata-release/" >First CEEMID Regional Open Data Release</a>
+    </h3>
+
+    
+    <div class="article-style">
+      In the preparation to make the CEEMID available as an open-source data integration platform and as a source of open data for the European Music Observatory, the first regional dataset was published today.
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+        
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  
+  <span><a href="/author/daniel-antal-cfa/">Daniel Antal, CFA</a></span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+          
+      
+    
+    Apr 16, 2020
+  </span>
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    2 
+  </span>
+  
+
+  
+  
+  
+
+  
+  
+
+</div>
+
+      
+    </div>
+
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="/post/2020-04-16-regional-opendata-release/" >
+      <img src="/post/2020-04-16-regional-opendata-release/featured_hua67821a47228b3b48960282063d210f3_131310_150x0_resize_q90_lanczos.jpg" alt="">
+    </a>
+    
+  </div>
+</div>
+
+      
+    
+      
+        
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="/post/2020-04-15-comparing-social-distancing/" >Comparing Social Distancing in Europe</a>
+    </h3>
+
+    
+    <div class="article-style">
+      Based on the locational data of various smartphones and application data, we know that people spend 10-15% more time at home since January, and 40-50% less in their workplaces.  Similar data is available for other locations.
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+        
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  
+  <span><a href="/author/daniel-antal-cfa/">Daniel Antal, CFA</a></span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+          
+      
+    
+    Apr 16, 2020
+  </span>
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    4 
+  </span>
+  
+
+  
+  
+  
+
+  
+  
+
+</div>
+
+      
+    </div>
+
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="/post/2020-04-15-comparing-social-distancing/" >
+      <img src="/post/2020-04-15-comparing-social-distancing/featured_hu761243a263cad05feb740737585b8812_185432_150x0_resize_lanczos_2.png" alt="">
+    </a>
+    
+  </div>
+</div>
+
+      
+    
+      
+        
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="/post/yes-delft-co-lab/" >Comparing Social Distancing in Europe</a>
+    </h3>
+
+    
+    <div class="article-style">
+      People around the world are facing newer and newer exponential charts everyday. We’re all hoping for new information about the progress against the coronavirus. Unfortunately, the vast majority of these charts is meaningless. In fact, coronavirus case counts are meaningless, unless they are done with very heavy statistical knowledge, and even then they are very messy.
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+        
+
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+          
+      
+    
+    Apr 14, 2020
+  </span>
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    4 
+  </span>
+  
+
+  
+  
+  
+
+  
+  
+
+</div>
+
+      
+    </div>
+
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+      
+    
+      
+        
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
       <a href="/post/yes-delft-co-lab/" >Yes!Delft Co-Lab</a>
     </h3>
 
@@ -1211,6 +1539,49 @@
     
 
     <div class="isotope projects-container js-layout-masonry ">
+      
+
+        
+        
+        
+
+        
+          
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<div class="project-card project-item isotope-item js-id-reproducible-research js-id-reproducible-consulting">
+  <div class="card">
+    
+    
+    <a href="/project/reproducible_consulting/"  class="card-image hover-overlay">
+      <img src="/project/reproducible_consulting/featured_hu71073d2ea9a3d3cada5017e2cd7d4a39_263802_550x0_resize_q90_lanczos.jpg" alt="" class="img-responsive">
+    </a>
+    
+    <div class="card-text">
+      <h4><a href="/project/reproducible_consulting/" >Reproducible Consulting</a></h4>
+      
+      <div class="article-style">
+        <p>Making sure that your recommendations are confirmable and auditable.</p>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+        
+
       
 
         
@@ -1380,11 +1751,11 @@
     
     
       
-      <a href="/authors/daniel_antal/"><img class="avatar avatar-circle" src="/authors/daniel_antal/avatar_hu52a603635ecebd45650b162dadabb4e5_12861_270x270_fill_q90_lanczos_center.jpg" alt="Avatar"></a>
+      <a href="/author/"><img class="avatar avatar-circle" src="/author/avatar_hu52a603635ecebd45650b162dadabb4e5_12861_270x270_fill_q90_lanczos_center.jpg" alt="Avatar"></a>
     
 
     <div class="portrait-title">
-      <h2><a href="/authors/daniel_antal/">Daniel Antal, CFA</a></h2>
+      <h2><a href="/author/">Daniel Antal, CFA</a></h2>
       <h3>Founder</h3>
       
       
@@ -1571,6 +1942,594 @@
     
 
     
+      
+        
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+<div class="card-simple">
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  
+  <span><a href="/author/daniel-antal/">Daniel Antal</a></span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    2020-06-25
+  </span>
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="pub-publication">
+    
+  </span>
+  
+
+  
+
+  
+  
+  
+
+  
+  
+  <span class="middot-divider"></span>
+  <span class="article-categories">
+    <i class="fas fa-folder mr-1"></i><a href="/category/r/">R</a></span>
+  
+
+</div>
+
+  
+
+  
+  
+  
+  
+  <a href="/publication/eurobarometer_2020/">
+      <img src="/publication/eurobarometer_2020/featured_huf017ebd097201f45381cf02b6b40f758_101923_918x517_fill_q90_lanczos_topleft.jpg" class="article-banner" alt="">
+  </a>
+  
+
+  <h3 class="article-title mb-1 mt-3">
+    <a href="/publication/eurobarometer_2020/">eurobarometer R package</a>
+  </h3>
+
+  
+  <div class="article-style">
+    <p>The goal of eurobarometer is converting Eurobarometer microdata files, as stored by GESIS, into tidy R data frames and help common pre-processing problems.</p>
+  </div>
+  
+
+  
+  <div class="btn-links">
+    
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/eurobarometer_2020/cite.bib">
+  
+</button>
+
+
+
+
+
+  
+    
+  
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/project/opendata/">
+    
+  </a>
+  
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.5281/zenodo.3901724" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+
+  </div>
+  
+
+</div>
+
+      
+    
+      
+        
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+<div class="card-simple">
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  
+  <span><a href="/author/daniel-antal/">Daniel Antal</a></span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    2020-06-03
+  </span>
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="pub-publication">
+    
+  </span>
+  
+
+  
+
+  
+  
+  
+
+  
+  
+  <span class="middot-divider"></span>
+  <span class="article-categories">
+    <i class="fas fa-folder mr-1"></i><a href="/category/r/">R</a></span>
+  
+
+</div>
+
+  
+
+  
+  
+  
+  
+  <a href="/publication/regions_2020/">
+      <img src="/publication/regions_2020/featured_hu263bf68f5ed6a376e3f71d808ff0628b_70487_918x517_fill_q90_lanczos_topleft_2.png" class="article-banner" alt="">
+  </a>
+  
+
+  <h3 class="article-title mb-1 mt-3">
+    <a href="/publication/regions_2020/">regions R package</a>
+  </h3>
+
+  
+  <div class="article-style">
+    <p>An open source R package for validating sub-national statistical typologies, re-coding across standard typologies of sub-national statistics, and making valid aggregate level imputation, re-aggregation, re-weighting and projection down to lower hierarchical levels to create meaningful data panels and time series.</p>
+  </div>
+  
+
+  
+  <div class="btn-links">
+    
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/regions_2020/cite.bib">
+  
+</button>
+
+
+
+
+
+  
+    
+  
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/project/opendata/">
+    
+  </a>
+  
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.5281/zenodo.3825696" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+
+  </div>
+  
+
+</div>
+
+      
+    
+      
+        
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+<div class="card-simple">
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  
+  <span><a href="/author/daniel-antal/">Daniel Antal</a></span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    2020-01-29
+  </span>
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="pub-publication">
+    
+  </span>
+  
+
+  
+
+  
+  
+  
+
+  
+  
+
+</div>
+
+  
+
+  
+  
+  
+  
+  <a href="/publication/ceereport_2020/">
+      <img src="/publication/ceereport_2020/featured_huc92d3517b110efc1c138410e66c0679c_66963_918x517_fill_q90_lanczos_center.jpg" class="article-banner" alt="">
+  </a>
+  
+
+  <h3 class="article-title mb-1 mt-3">
+    <a href="/publication/ceereport_2020/">Central &amp; Eastern European Music Industry Report 2020</a>
+  </h3>
+
+  
+  <div class="article-style">
+    <p>The results of the first Hungarian, Slovak, Croatian and Czech music industry reports are compared with Armenian, Austrian, Bulgarian, Lithuanian, Serbian and Slovenian data and findings.</p>
+  </div>
+  
+
+  
+  <div class="btn-links">
+    
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="http://ceereport2020.ceemid.eu/CEE_Report.pdf" target="_blank" rel="noopener">
+  
+</a>
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/ceereport_2020/cite.bib">
+  
+</button>
+
+
+
+
+
+  
+    
+  
+
+  
+    
+  
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.13140/RG.2.2.21450.31686" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+
+  </div>
+  
+
+</div>
+
+      
+    
+      
+        
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+<div class="card-simple">
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  
+  <span><a href="/author/daniel-antal/">Daniel Antal</a></span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    2018-12-22
+  </span>
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="pub-publication">
+    
+  </span>
+  
+
+  
+
+  
+  
+  
+
+  
+  
+  <span class="middot-divider"></span>
+  <span class="article-categories">
+    <i class="fas fa-folder mr-1"></i><a href="/category/r/">R</a></span>
+  
+
+</div>
+
+  
+
+  
+  
+  
+  
+  <a href="/publication/iotables_2018/">
+      <img src="/publication/iotables_2018/featured_huf017ebd097201f45381cf02b6b40f758_101923_918x517_fill_q90_lanczos_topleft.jpg" class="article-banner" alt="">
+  </a>
+  
+
+  <h3 class="article-title mb-1 mt-3">
+    <a href="/publication/iotables_2018/">iotables R package</a>
+  </h3>
+
+  
+  <div class="article-style">
+    <p>The goal of eurobarometer is converting Eurobarometer microdata files, as stored by GESIS, into tidy R data frames and help common pre-processing problems.</p>
+  </div>
+  
+
+  
+  <div class="btn-links">
+    
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/iotables_2018/cite.bib">
+  
+</button>
+
+
+
+
+
+  
+    
+  
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/project/opendata/">
+    
+  </a>
+  
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.5281/zenodo.2531818" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+
+  </div>
+  
+
+</div>
+
+      
+    
 
   
 
@@ -1670,6 +2629,466 @@
 
 
     
+      
+        
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="/publication/eurobarometer_2020/" >eurobarometer R package</a>
+    </h3>
+
+    
+    <div class="article-style">
+      The goal of eurobarometer is converting Eurobarometer microdata files, as stored by GESIS, into tidy R data frames and help common …
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  
+  <span><a href="/author/daniel-antal/">Daniel Antal</a></span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/eurobarometer_2020/cite.bib">
+  
+</button>
+
+
+
+
+
+  
+    
+  
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/project/opendata/">
+    
+  </a>
+  
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.5281/zenodo.3901724" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="/publication/eurobarometer_2020/" >
+      <img src="/publication/eurobarometer_2020/featured_huf017ebd097201f45381cf02b6b40f758_101923_150x0_resize_q90_lanczos.jpg" alt="">
+    </a>
+    
+  </div>
+</div>
+
+      
+    
+      
+        
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="/publication/regions_2020/" >regions R package</a>
+    </h3>
+
+    
+    <div class="article-style">
+      An open source R package for validating sub-national statistical typologies, re-coding across standard typologies of sub-national …
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  
+  <span><a href="/author/daniel-antal/">Daniel Antal</a></span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/regions_2020/cite.bib">
+  
+</button>
+
+
+
+
+
+  
+    
+  
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/project/opendata/">
+    
+  </a>
+  
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.5281/zenodo.3825696" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="/publication/regions_2020/" >
+      <img src="/publication/regions_2020/featured_hu263bf68f5ed6a376e3f71d808ff0628b_70487_150x0_resize_lanczos_2.png" alt="">
+    </a>
+    
+  </div>
+</div>
+
+      
+    
+      
+        
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="/publication/ceereport_2020/" >Central &amp; Eastern European Music Industry Report 2020</a>
+    </h3>
+
+    
+    <div class="article-style">
+      The results of the first Hungarian, Slovak, Croatian and Czech music industry reports are compared with Armenian, Austrian, Bulgarian, …
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  
+  <span><a href="/author/daniel-antal/">Daniel Antal</a></span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="http://ceereport2020.ceemid.eu/CEE_Report.pdf" target="_blank" rel="noopener">
+  
+</a>
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/ceereport_2020/cite.bib">
+  
+</button>
+
+
+
+
+
+  
+    
+  
+
+  
+    
+  
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.13140/RG.2.2.21450.31686" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="/publication/ceereport_2020/" >
+      <img src="/publication/ceereport_2020/featured_huc92d3517b110efc1c138410e66c0679c_66963_150x0_resize_q90_lanczos.jpg" alt="">
+    </a>
+    
+  </div>
+</div>
+
+      
+    
+      
+        
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="/publication/iotables_2018/" >iotables R package</a>
+    </h3>
+
+    
+    <div class="article-style">
+      The goal of eurobarometer is converting Eurobarometer microdata files, as stored by GESIS, into tidy R data frames and help common …
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  
+  <span><a href="/author/daniel-antal/">Daniel Antal</a></span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/iotables_2018/cite.bib">
+  
+</button>
+
+
+
+
+
+  
+    
+  
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/project/opendata/">
+    
+  </a>
+  
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.5281/zenodo.2531818" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="/publication/iotables_2018/" >
+      <img src="/publication/iotables_2018/featured_huf017ebd097201f45381cf02b6b40f758_101923_150x0_resize_q90_lanczos.jpg" alt="">
+    </a>
+    
+  </div>
+</div>
+
+      
+    
 
     
 
@@ -1751,32 +3170,102 @@
           
           
           
-          <a href="/tags/ceemid/" style="font-size:0.7rem">ceemid</a>
+          <a href="/tag/armenia/" style="font-size:0.7rem">Armenia</a>
         
           
           
           
-          <a href="/tags/music-industry/" style="font-size:0.7rem">music-industry</a>
+          <a href="/tag/austria/" style="font-size:0.7rem">Austria</a>
         
           
           
           
-          <a href="/tags/observatory/" style="font-size:0.7rem">observatory</a>
+          <a href="/tag/bulgaria/" style="font-size:0.7rem">Bulgaria</a>
         
           
           
           
-          <a href="/tags/open-data/" style="font-size:0.7rem">open-data</a>
+          <a href="/tag/ceemid/" style="font-size:1.35rem">CEEMID</a>
         
           
           
           
-          <a href="/tags/surveys/" style="font-size:0.7rem">surveys</a>
+          <a href="/tag/covid-19/" style="font-size:0.7rem">COVID-19</a>
         
           
           
           
-          <a href="/tags/team-building/" style="font-size:0.7rem">team-building</a>
+          <a href="/tag/covid19/" style="font-size:0.7rem">covid19</a>
+        
+          
+          
+          
+          <a href="/tag/czechia/" style="font-size:0.7rem">Czechia</a>
+        
+          
+          
+          
+          <a href="/tag/economic-impact/" style="font-size:0.7rem">economic-impact</a>
+        
+          
+          
+          
+          <a href="/tag/eurobarometer/" style="font-size:0.7rem">eurobarometer</a>
+        
+          
+          
+          
+          <a href="/tag/european-music-observatory/" style="font-size:0.7rem">European Music Observatory</a>
+        
+          
+          
+          
+          <a href="/tag/geography/" style="font-size:0.7rem">geography</a>
+        
+          
+          
+          
+          <a href="/tag/geolocations/" style="font-size:1.35rem">geolocations</a>
+        
+          
+          
+          
+          <a href="/tag/hungary/" style="font-size:0.7rem">Hungary</a>
+        
+          
+          
+          
+          <a href="/tag/iotabales/" style="font-size:0.7rem">iotabales</a>
+        
+          
+          
+          
+          <a href="/tag/lithuania/" style="font-size:0.7rem">Lithuania</a>
+        
+          
+          
+          
+          <a href="/tag/market-report/" style="font-size:0.7rem">market-report</a>
+        
+          
+          
+          
+          <a href="/tag/music-industry/" style="font-size:1.35rem">music-industry</a>
+        
+          
+          
+          
+          <a href="/tag/open-data/" style="font-size:1.35rem">open-data</a>
+        
+          
+          
+          
+          <a href="/tag/r-bloggers/" style="font-size:1.7302256254687514rem">r-bloggers</a>
+        
+          
+          
+          
+          <a href="/tag/surveys/" style="font-size:1.35rem">surveys</a>
         
       </div>
     
@@ -1842,7 +3331,7 @@
     
 
     <div class="mb-3">
-      <form name="contact" method="POST" action="https://formspree.io/test@example.org">
+      <form name="contact" method="POST" action="https://formspree.io/test@satellitereport.com">
         <div class="form-group form-inline">
           <label class="sr-only" for="inputName"></label>
           <input type="text" name="name" class="form-control w-100" id="inputName" placeholder="Name" required>
@@ -1865,40 +3354,19 @@
       
 
       
-      <li>
-        <i class="fa-li fas fa-phone fa-2x" aria-hidden="true"></i>
-        <span id="person-telephone"><a href="tel:888%20888%2088%2088">888 888 88 88</a></span>
-      </li>
-      
 
       
-      
-        
-        <li>
-          <i class="fa-li fas fa-map-marker fa-2x" aria-hidden="true"></i>
-          <span id="person-address">450 Serra Mall, Stanford, CA 94305</span>
-        </li>
       
 
       
       <li>
         <i class="fa-li fas fa-compass fa-2x" aria-hidden="true"></i>
-        <span>Enter Building 1 and take the stairs to Office 200 on Floor 2</span>
+        <span>Enter Building</span>
       </li>
       
 
       
-      <li>
-        <i class="fa-li fas fa-clock fa-2x" aria-hidden="true"></i>
-        <span>Monday 10:00 to 13:00<br>Wednesday 09:00 to 10:00</span>
-      </li>
-      
 
-      
-      <li>
-        <i class="fa-li fas fa-calendar-check fa-2x" aria-hidden="true"></i>
-        <a href="https://calendly.com" target="_blank" rel="noopener">Book an appointment</a>
-      </li>
       
 
       
@@ -1916,7 +3384,7 @@
       
       <li>
         <i class="fa-li fab fa-twitter fa-2x" aria-hidden="true"></i>
-        <a href="https://twitter.com/Twitter" target="_blank" rel="noopener">DM Me</a>
+        <a href="https://twitter.com/antaldaniel" target="_blank" rel="noopener">DM Me</a>
       </li>
       
       
@@ -1930,7 +3398,7 @@
       
       <li>
         <i class="fa-li fab fa-skype fa-2x" aria-hidden="true"></i>
-        <a href="skype:echo123?call" >Skype Me</a>
+        <a href="skype:antaldaniel.hu" >Skype Me</a>
       </li>
       
       
@@ -1946,7 +3414,7 @@
       
       <li>
         <i class="fa-li fab fa-keybase fa-2x" aria-hidden="true"></i>
-        <a href="https://keybase.io/" target="_blank" rel="noopener">Chat on Keybase</a>
+        <a href="https://keybase.io/antaldaniel" target="_blank" rel="noopener">Chat on Keybase</a>
       </li>
       
       
@@ -1961,23 +3429,13 @@
         
       
       <li>
-        <i class="fa-li fas fa-comments fa-2x" aria-hidden="true"></i>
-        <a href="https://discourse.gohugo.io" target="_blank" rel="noopener">Discuss on Forum</a>
+        <i class="fa-li fab fa-telegram fa-2x" aria-hidden="true"></i>
+        <a href="https://telegram.me/antaldaniel" target="_blank" rel="noopener">Telegram Me</a>
       </li>
       
 
     </ul>
 
-    
-    <div class="d-none">
-      <input id="map-provider" value="2">
-      <input id="map-lat" value="37.4275">
-      <input id="map-lng" value="-122.1697">
-      <input id="map-dir" value="450 Serra Mall, Stanford, CA 94305">
-      <input id="map-zoom" value="15">
-      <input id="map-api-key" value="">
-    </div>
-    <div id="map"></div>
     
 
   </div>
@@ -2113,7 +3571,7 @@
   
 
   <p class="powered-by">
-    
+    © 2020 &middot; 
 
     Powered by the
     <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for

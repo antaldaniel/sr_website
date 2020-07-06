@@ -3,17 +3,177 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/post/</loc>
-    <lastmod>2020-03-14T20:55:37+01:00</lastmod>
+    <loc>/publication-type/0/</loc>
+    <lastmod>2020-06-25T16:00:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/</loc>
+    <lastmod>2020-06-25T16:00:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/</loc>
+    <lastmod>2020-06-25T16:00:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/daniel-antal/</loc>
+    <lastmod>2020-06-25T16:00:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/eurobarometer/</loc>
+    <lastmod>2020-06-25T16:00:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/eurobarometer_2020/</loc>
+    <lastmod>2020-06-25T16:00:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication_types/</loc>
+    <lastmod>2020-06-25T16:00:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/</loc>
+    <lastmod>2020-06-25T16:00:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/category/r/</loc>
+    <lastmod>2020-06-25T16:00:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/r-bloggers/</loc>
+    <lastmod>2020-06-25T16:00:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2020-06-25T16:00:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/surveys/</loc>
+    <lastmod>2020-06-25T16:00:00+02:00</lastmod>
   </url>
   
   <url>
     <loc>/tags/</loc>
-    <lastmod>2020-03-14T20:55:37+01:00</lastmod>
+    <lastmod>2020-06-25T16:00:00+02:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/team-building/</loc>
+    <loc>/tag/geography/</loc>
+    <lastmod>2020-06-03T17:00:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/regions/</loc>
+    <lastmod>2020-06-03T17:00:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/regions_2020/</loc>
+    <lastmod>2020-06-03T17:00:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/ceemid/</loc>
+    <lastmod>2020-04-16T17:30:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/daniel-antal-cfa/</loc>
+    <lastmod>2020-04-16T17:30:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/european-music-observatory/</loc>
+    <lastmod>2020-04-16T17:30:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2020-04-16-regional-opendata-release/</loc>
+    <lastmod>2020-04-16T17:30:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/music-demand/</loc>
+    <lastmod>2020-04-16T17:30:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/open-data/</loc>
+    <lastmod>2020-04-16T17:30:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/</loc>
+    <lastmod>2020-04-16T17:30:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2020-04-15-comparing-social-distancing/</loc>
+    <lastmod>2020-04-16T13:30:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/covid-19/</loc>
+    <lastmod>2020-04-16T13:30:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/geolocations/</loc>
+    <lastmod>2020-04-16T13:30:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/public-policy/</loc>
+    <lastmod>2020-04-16T13:30:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/yes-delft-co-lab/</loc>
+    <lastmod>2020-04-14T22:23:37+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/covid19/</loc>
+    <lastmod>2020-04-14T22:23:37+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/social-distancing/</loc>
+    <lastmod>2020-04-14T22:23:37+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/project/</loc>
+    <lastmod>2020-03-27T09:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/project/reproducible_consulting/</loc>
+    <lastmod>2020-03-27T09:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/reproducible-consulting/</loc>
+    <lastmod>2020-03-27T09:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/reproducible-research/</loc>
+    <lastmod>2020-03-27T09:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/team-building/</loc>
     <lastmod>2020-03-14T20:55:37+01:00</lastmod>
   </url>
   
@@ -23,23 +183,68 @@
   </url>
   
   <url>
-    <loc>/tags/open-data/</loc>
-    <lastmod>2020-02-13T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/project/opendata/</loc>
     <lastmod>2020-02-13T00:00:00+01:00</lastmod>
   </url>
   
   <url>
-    <loc>/project/</loc>
-    <lastmod>2020-02-13T00:00:00+01:00</lastmod>
+    <loc>/publication-type/4/</loc>
+    <lastmod>2020-01-29T16:00:00+01:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/ceemid/</loc>
-    <lastmod>2019-02-27T00:00:00+01:00</lastmod>
+    <loc>/tag/armenia/</loc>
+    <lastmod>2020-01-29T16:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/austria/</loc>
+    <lastmod>2020-01-29T16:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/bulgaria/</loc>
+    <lastmod>2020-01-29T16:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/ceereport_2020/</loc>
+    <lastmod>2020-01-29T16:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/czechia/</loc>
+    <lastmod>2020-01-29T16:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/hungary/</loc>
+    <lastmod>2020-01-29T16:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/lithuania/</loc>
+    <lastmod>2020-01-29T16:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/market-report/</loc>
+    <lastmod>2020-01-29T16:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/music-industry/</loc>
+    <lastmod>2020-01-29T16:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/serbia/</loc>
+    <lastmod>2020-01-29T16:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/slovakia/</loc>
+    <lastmod>2020-01-29T16:00:00+01:00</lastmod>
   </url>
   
   <url>
@@ -48,27 +253,32 @@
   </url>
   
   <url>
-    <loc>/tags/music-industry/</loc>
+    <loc>/tag/observatory/</loc>
     <lastmod>2019-02-27T00:00:00+01:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/observatory/</loc>
-    <lastmod>2019-02-27T00:00:00+01:00</lastmod>
+    <loc>/tag/economic-impact/</loc>
+    <lastmod>2018-12-22T11:00:00+01:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/surveys/</loc>
-    <lastmod>2019-02-27T00:00:00+01:00</lastmod>
+    <loc>/tag/iotabales/</loc>
+    <lastmod>2018-12-22T11:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/iotables_2018/</loc>
+    <lastmod>2018-12-22T11:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/multipliers/</loc>
+    <lastmod>2018-12-22T11:00:00+01:00</lastmod>
   </url>
   
   <url>
     <loc>/privacy/</loc>
-    <lastmod>2018-06-28T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/</loc>
     <lastmod>2018-06-28T00:00:00+01:00</lastmod>
   </url>
   
@@ -78,27 +288,11 @@
   </url>
   
   <url>
-    <loc>/authors/admin/</loc>
+    <loc>/author/</loc>
   </url>
   
   <url>
-    <loc>/authors/daniel_antal/</loc>
-  </url>
-  
-  <url>
-    <loc>/authors/</loc>
-  </url>
-  
-  <url>
-    <loc>/categories/</loc>
-  </url>
-  
-  <url>
-    <loc>/publication_types/</loc>
-  </url>
-  
-  <url>
-    <loc>/publication/</loc>
+    <loc>/author/</loc>
   </url>
   
   <url>
