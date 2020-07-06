@@ -21,7 +21,7 @@ featured = true
 # Projects (optional).
 projects = ["R", "opendata"]
 categories = ["R"]
-tags = ["r-bloggers", "iotabales", "multipliers", "economic-impact"]
+tags = ["r-bloggers", "iotabales", "multipliers", "R"]
 
 # Slides (optional).
 #   Associate this publication with Markdown slides.
