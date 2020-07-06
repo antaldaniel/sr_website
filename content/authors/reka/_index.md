@@ -18,7 +18,7 @@ organizations:
   url: "https://satellitereport.com/"
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include reproducible social science, economics and finance.
+bio: My research interests include localization and photography.
 
 topics:
 - Localization
