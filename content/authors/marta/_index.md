@@ -21,9 +21,9 @@ organizations:
 bio: My research interests include reproducible social science, economics and finance.
 
 topics:
-- Intangible Assets / Royalty Valuation
-- Open Data
-- Music
+- Quantitative methods for comparative and cross-national research
+- Survey data harmonization
+- Reproducible research
 
 education:
   courses:
