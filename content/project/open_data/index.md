@@ -66,12 +66,8 @@ In many cases, the re-usable public data offers a consistent and cheap alternati
 
 * The data is often difficult to find.  It is technically re-usable, but even its existence is unknown for most business users.
 
-The direct data costs of PSI are usually low - users only have to pay marginal costs, or sometimes they are not charged for a fair use of the data. However, the data processing costs are significant, because the data was not prepared for the business users needs.  The data processing requires a special understanding of statistical standards and public data.
+The direct data costs of PSI are usually low - users only have to pay marginal costs, or sometimes they are not charged for a fair use of the data. However, the data processing costs are significant, because the data was not prepared for the business users needs.  The data processing requires a special understanding of statistical standards and public data. This is one of our specialities - besides having a very detailed 'treasure map' of European PSI.  We are creating thousands of high-quality, pan-European business and policy indicators from open data sources. 
 
-
-
-
-
-
+## Legal Background
 
 In the EU, open data is governed by the [Directive on open data and the re-use of public sector information - in short: Open Data Directive (EU) 2019/1024](https://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1561563110433&uri=CELEX:32019L1024). It entered into force on 16 July 2019. It replaces the [Public Sector Information Directive](https://eur-lex.europa.eu/legal-content/en/ALL/?uri=CELEX:32003L0098), also known as the ‘PSI Directive’ which dated from 2003 and was subsequently amended in 2013. The founder of CEEMID, Daniel Antal has been involved in Open Data and [PSI since 2008](https://danielantal.eu/publication/hungary_psi_2009/).
