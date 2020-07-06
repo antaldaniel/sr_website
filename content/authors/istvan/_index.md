@@ -7,14 +7,14 @@ authors:
 - istvan
 
 # Is this the primary user of the site?
-superuser: true
+superuser: false
 
 # Role/position
 role: Senior Data Analyst
 
 # Organizations/Affiliations
 organizations:
-- name: Visegrad Investments - CEEMID
+- name: Satellite Report
   url: "https://satellitereport.com/"
 
 # Short bio (displayed in user profile at end of posts)
@@ -60,7 +60,7 @@ email: ""
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Team members
+- Team
 ---
 
 Istvan is an experienced management consultant who works with advanced data analytics particularly in the energy sector and in macroeconomics. He is a contributor to the regions package, and holds an M.Sc. Economics and an M.Sc. Business Analytics degree. 
