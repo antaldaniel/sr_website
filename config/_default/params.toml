@@ -81,7 +81,7 @@ edit_page = {repo_url = "https://github.com/gcushen/hugo-academic", content_dir 
 ############################
 
 # Enter contact details (optional). To hide a field, clear it to "".
-#email = "test@example.org"
+email = "test@satellitereport.com"
 #phone = "888 888 88 88"
 
 # Address
@@ -184,7 +184,7 @@ plugins_js  = []
 [publications]
   # Date format (refer to https://sourcethemes.com/academic/docs/customization/#date-format )
   #   Examples: "Mon, Jan 2, 2006" or "2006-01-02"
-  date_format = "January 2006"
+  date_format = "2006-01-02"
 
   # Citation style ("apa" or "mla")
   citation_style = "apa"
@@ -267,5 +267,5 @@ plugins_js  = []
 ## Marketing
 ############################
 [marketing]
-  google_analytics = ""
+  google_analytics = "UA-1214068-18"
   google_tag_manager = ""

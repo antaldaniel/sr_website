@@ -15,10 +15,10 @@ role:
 # Organizations/Affiliations
 organizations:
 - name: Satellite Report BV
-  url: ""
+  url: "www.satellitereport.com"
 
 # Short bio (displayed in user profile at end of posts)
-bio: "".
+bio: "We automate research jobs for consulting, business planning or social science."
 
 
 
