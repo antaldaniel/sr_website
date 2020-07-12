@@ -12,7 +12,7 @@ type = "docs"  # Do not modify.
 linktitle = "Harmonized Surveys"
 [menu.reproducible]
   parent = "Surveys"
-  weight = 5
+  weight = 60
 +++
 
 The very techincal terms of ex ante , ex post or retrospective harmonization hide opportunities that can significantly increase the value for money in empirical market research, potentially increasing the value of a high-cost, high-value survey to multiple times of its euro value.

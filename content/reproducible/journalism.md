@@ -12,7 +12,7 @@ type = "docs"  # Do not modify.
 linktitle = "Journalistic investigations"
 [menu.reproducible]
   parent = "Data Journalism"
-  weight = 4
+  weight = 41
 
 +++
 

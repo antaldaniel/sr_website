@@ -43,6 +43,39 @@
     </item>
     
     <item>
+      <title>Cultural Access and Participation surveys</title>
+      <link>/reproducible/cap/</link>
+      <pubDate>Fri, 10 Jul 2020 10:00:00 +0200</pubDate>
+      <guid>/reproducible/cap/</guid>
+      <description>&lt;p&gt;Cultural Access and Participation Surveys are standardized surveys designed to measure various market-based and non-market based (amateur, liturgical, etc.) cultural activities, including concerts, streaming subscriptions, singing, etc.  They are based on various quantative sociological models and had been standardized by the Eurostat working group 
+&lt;a href=&#34;http://ec.europa.eu/assets/eac/culture/library/reports/ess-net-report_en.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ESSNet-Culture&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The CEEMID CAP surveys are usually live interviews that allow cross-country comparison, and they are used both for market forecasting, market analytics, royalty and compensation value setting.&lt;/p&gt;
+&lt;h2 id=&#34;cap-europe-2013&#34;&gt;CAP Europe 2013&lt;/h2&gt;
+&lt;p&gt;We use the data of the CAP 2013 survey for cross-country comparisons and for model calibration, because it includes all EU countries.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/img/cee_concert_demography_16x9.jpg&#34; alt=&#34;Comparative Demography with CAP EU 2013&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;cap-europe-2007&#34;&gt;CAP Europe 2007&lt;/h2&gt;
+&lt;p&gt;We use the data of the CAP 2007 survey for understanding cross-country dynamics and long-term changes, because it includes all EU countries. For example, we can determine in which countries visit &lt;code&gt;Generation Z&lt;/code&gt; 20-years-old people more concerts or cinemas than their &lt;code&gt;Generation X&lt;/code&gt; and &lt;code&gt;Generation Y&lt;/code&gt; peers when they were 20-years-old.&lt;/p&gt;
+&lt;h2 id=&#34;cap-hungary-2019&#34;&gt;CAP Hungary 2019&lt;/h2&gt;
+&lt;p&gt;The CAP Hungary 2019 survey fieldwork is under way.&lt;/p&gt;
+&lt;h2 id=&#34;cap-hungary-2018&#34;&gt;CAP Hungary 2018&lt;/h2&gt;
+&lt;p&gt;The CAP Hungary 2018 survey was designed for a full market analysis in Hungary on the music and audiovisual sectors, particularly to calculate the equitable remuneration for private copying, the value transfer to YouTube and other media platforms, and the development of the audidence for Hungarian films.&lt;/p&gt;
+&lt;h2 id=&#34;cap-hungary-2017&#34;&gt;CAP Hungary 2017&lt;/h2&gt;
+&lt;p&gt;The CAP Hungary 2017 survey was designed for a full market analysis in Hungary on the music and audiovisual sectors, particularly to calculate the equitable remuneration for private copying. A separate mini-CAP survey was designed to capture the value transfer to YouTube, which was later incorporated into the CAP Hungary 2018-2019 surveys.&lt;/p&gt;
+&lt;h2 id=&#34;cap-croatia-2017&#34;&gt;CAP Croatia 2017&lt;/h2&gt;
+&lt;p&gt;The CAP Croatia 2017 survey was designed for the creation of the Private Copying in Croatia report, which is prepared for the forthcoming Croatian Copyright legislation changes on private copying and the value gap.  The survey was conducted by Hendall on a sample of 800 respondents.&lt;/p&gt;
+&lt;h2 id=&#34;cap-slovakaia-2015&#34;&gt;CAP Slovakaia 2015&lt;/h2&gt;
+&lt;p&gt;The CAP Slovakia 2015 survey was designed as a part of a larger survey that also incorporated attitudes towards Slovak culture and non-standard survey questions designed by Focus.  The CAP Survey was used to create the 
+&lt;a href=&#34;https://danielantal.eu/publication/slovak_music_industry_2019/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Slovak Music Industry Report&lt;/a&gt; and to make various legislative impact assessment presentations during the modification of the Slovak Copyright Law on private copying and radio quotas.&lt;/p&gt;
+&lt;h2 id=&#34;cap-hungary-2015&#34;&gt;CAP Hungary 2015&lt;/h2&gt;
+&lt;p&gt;The CAP Hungary 2015 survey was designed for a full market analysis in Hungary on the music and audiovisual sectors. It was used in the 
+&lt;a href=&#34;http://www.gvh.hu/sajtoszoba/sajtokozlemenyek/2016_os_sajtokozlemenyek/az_ures_hordozoi_dij_fogasztoi_visszaigenylesenek_.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;competition authority case&lt;/a&gt; related to the Hungarian private copying regime and in a consulting project related to better finding the audience of Hungarian cinemas in their domestic theatrical market.&lt;/p&gt;
+&lt;p&gt;The survey was conducted by TNS Hoffmann (currently named Kantar Hoffmann.)&lt;/p&gt;
+&lt;h2 id=&#34;cap-hungary-2014&#34;&gt;CAP Hungary 2014&lt;/h2&gt;
+&lt;p&gt;The CAP Hungary 2014 was a non-representative, large-sample online survey to pilot the later surveys.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Data Maps</title>
       <link>/reproducible/data_maps/</link>
       <pubDate>Fri, 10 Jul 2020 10:00:00 +0200</pubDate>
@@ -110,39 +143,6 @@
 &lt;a href=&#34;http://ropengov.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;rOpenGov&lt;/a&gt; collaboration.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Cultural Access and Participation surveys</title>
-      <link>/reproducible/cap/</link>
-      <pubDate>Thu, 03 Jan 2019 00:00:00 +0100</pubDate>
-      <guid>/reproducible/cap/</guid>
-      <description>&lt;p&gt;Cultural Access and Participation Surveys are standardized surveys designed to measure various market-based and non-market based (amateur, liturgical, etc.) cultural activities, including concerts, streaming subscriptions, singing, etc.  They are based on various quantative sociological models and had been standardized by the Eurostat working group 
-&lt;a href=&#34;http://ec.europa.eu/assets/eac/culture/library/reports/ess-net-report_en.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ESSNet-Culture&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;The CEEMID CAP surveys are usually live interviews that allow cross-country comparison, and they are used both for market forecasting, market analytics, royalty and compensation value setting.&lt;/p&gt;
-&lt;h2 id=&#34;cap-europe-2013&#34;&gt;CAP Europe 2013&lt;/h2&gt;
-&lt;p&gt;We use the data of the CAP 2013 survey for cross-country comparisons and for model calibration, because it includes all EU countries.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;/img/cee_concert_demography_16x9.jpg&#34; alt=&#34;Comparative Demography with CAP EU 2013&#34;&gt;&lt;/p&gt;
-&lt;h2 id=&#34;cap-europe-2007&#34;&gt;CAP Europe 2007&lt;/h2&gt;
-&lt;p&gt;We use the data of the CAP 2007 survey for understanding cross-country dynamics and long-term changes, because it includes all EU countries. For example, we can determine in which countries visit &lt;code&gt;Generation Z&lt;/code&gt; 20-years-old people more concerts or cinemas than their &lt;code&gt;Generation X&lt;/code&gt; and &lt;code&gt;Generation Y&lt;/code&gt; peers when they were 20-years-old.&lt;/p&gt;
-&lt;h2 id=&#34;cap-hungary-2019&#34;&gt;CAP Hungary 2019&lt;/h2&gt;
-&lt;p&gt;The CAP Hungary 2019 survey fieldwork is under way.&lt;/p&gt;
-&lt;h2 id=&#34;cap-hungary-2018&#34;&gt;CAP Hungary 2018&lt;/h2&gt;
-&lt;p&gt;The CAP Hungary 2018 survey was designed for a full market analysis in Hungary on the music and audiovisual sectors, particularly to calculate the equitable remuneration for private copying, the value transfer to YouTube and other media platforms, and the development of the audidence for Hungarian films.&lt;/p&gt;
-&lt;h2 id=&#34;cap-hungary-2017&#34;&gt;CAP Hungary 2017&lt;/h2&gt;
-&lt;p&gt;The CAP Hungary 2017 survey was designed for a full market analysis in Hungary on the music and audiovisual sectors, particularly to calculate the equitable remuneration for private copying. A separate mini-CAP survey was designed to capture the value transfer to YouTube, which was later incorporated into the CAP Hungary 2018-2019 surveys.&lt;/p&gt;
-&lt;h2 id=&#34;cap-croatia-2017&#34;&gt;CAP Croatia 2017&lt;/h2&gt;
-&lt;p&gt;The CAP Croatia 2017 survey was designed for the creation of the Private Copying in Croatia report, which is prepared for the forthcoming Croatian Copyright legislation changes on private copying and the value gap.  The survey was conducted by Hendall on a sample of 800 respondents.&lt;/p&gt;
-&lt;h2 id=&#34;cap-slovakaia-2015&#34;&gt;CAP Slovakaia 2015&lt;/h2&gt;
-&lt;p&gt;The CAP Slovakia 2015 survey was designed as a part of a larger survey that also incorporated attitudes towards Slovak culture and non-standard survey questions designed by Focus.  The CAP Survey was used to create the 
-&lt;a href=&#34;https://danielantal.eu/publication/slovak_music_industry_2019/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Slovak Music Industry Report&lt;/a&gt; and to make various legislative impact assessment presentations during the modification of the Slovak Copyright Law on private copying and radio quotas.&lt;/p&gt;
-&lt;h2 id=&#34;cap-hungary-2015&#34;&gt;CAP Hungary 2015&lt;/h2&gt;
-&lt;p&gt;The CAP Hungary 2015 survey was designed for a full market analysis in Hungary on the music and audiovisual sectors. It was used in the 
-&lt;a href=&#34;http://www.gvh.hu/sajtoszoba/sajtokozlemenyek/2016_os_sajtokozlemenyek/az_ures_hordozoi_dij_fogasztoi_visszaigenylesenek_.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;competition authority case&lt;/a&gt; related to the Hungarian private copying regime and in a consulting project related to better finding the audience of Hungarian cinemas in their domestic theatrical market.&lt;/p&gt;
-&lt;p&gt;The survey was conducted by TNS Hoffmann (currently named Kantar Hoffmann.)&lt;/p&gt;
-&lt;h2 id=&#34;cap-hungary-2014&#34;&gt;CAP Hungary 2014&lt;/h2&gt;
-&lt;p&gt;The CAP Hungary 2014 was a non-representative, large-sample online survey to pilot the later surveys.&lt;/p&gt;
 </description>
     </item>
     

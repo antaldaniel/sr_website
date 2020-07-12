@@ -28,6 +28,11 @@
   </url>
   
   <url>
+    <loc>/reproducible/cap/</loc>
+    <lastmod>2020-07-10T10:00:00+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/reproducible/data_maps/</loc>
     <lastmod>2020-07-10T10:00:00+02:00</lastmod>
   </url>
@@ -315,11 +320,6 @@
   <url>
     <loc>/tag/reprodubile-research/</loc>
     <lastmod>2019-02-27T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/reproducible/cap/</loc>
-    <lastmod>2019-01-03T00:00:00+01:00</lastmod>
   </url>
   
   <url>

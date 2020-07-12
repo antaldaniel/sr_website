@@ -12,7 +12,7 @@ type = "docs"  # Do not modify.
 linktitle = "Automated reporting"
 [menu.reproducible]
   parent = "Reports"
-  weight = 2
+  weight = 72
 +++
 
 **Reproducible reports** are documents that are automatically refreshing their data contents, review and correct their calculations, re-produce their tables and visualizations and their source list.

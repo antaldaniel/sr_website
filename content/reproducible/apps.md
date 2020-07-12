@@ -12,7 +12,7 @@ type = "docs"  # Do not modify.
 linktitle = "Data Retrieval & Analysis Apps"
 [menu.reproducible]
   parent = "Apps"
-  weight = 2
+  weight = 30
 +++
 
 Apps
