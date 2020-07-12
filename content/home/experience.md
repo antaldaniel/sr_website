@@ -38,7 +38,7 @@ date_format = "Jan 2006"
   location = "Den Haag, the Netherlands"
   date_start = "2020-03-14"
   date_end = "2020-09-01"
-  description = """
+  description = "team"
   Responsibilities include:
   
   * Analysing
