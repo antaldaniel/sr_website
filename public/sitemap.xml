@@ -53,6 +53,11 @@
   </url>
   
   <url>
+    <loc>/reproducible/psi/</loc>
+    <lastmod>2020-07-10T10:00:00+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/reproducible/</loc>
     <lastmod>2020-07-10T10:00:00+02:00</lastmod>
   </url>
@@ -300,11 +305,6 @@
   <url>
     <loc>/tag/slovakia/</loc>
     <lastmod>2020-01-29T16:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/reproducible/psi/</loc>
-    <lastmod>2019-05-05T19:36:00+02:00</lastmod>
   </url>
   
   <url>

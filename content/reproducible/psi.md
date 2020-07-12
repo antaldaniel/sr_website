@@ -1,18 +1,18 @@
 +++
 title = "Open Data & Re-use Of Public Sector Information"
 
-date = 2019-05-05T19:36:00
-# lastmod = 2019-05-05T19:36:00
+date = 2020-07-10T10:00:00
+lastmod = 2020-07-10T10:00:00
 
-draft = false  # Is this a draft? true/false
-toc = true  # Show table of contents? true/false
-type = "docs"  # Do not modify.
+draft = false
+toc = true
+type = "docs"  # Do not modify
 
 # Add menu entry to sidebar.
 linktitle = "Open Data & Public Sector Information"
 [menu.usecase]
   parent = "Experimental Data Sources"
-  weight = 6
+  weight = 72
 +++
 
 

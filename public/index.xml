@@ -133,6 +133,28 @@
     </item>
     
     <item>
+      <title>Open Data &amp; Re-use Of Public Sector Information</title>
+      <link>/reproducible/psi/</link>
+      <pubDate>Fri, 10 Jul 2020 10:00:00 +0200</pubDate>
+      <guid>/reproducible/psi/</guid>
+      <description>&lt;p&gt;I have been involved since 2003 in the creation of official and non-official statistics and in the re-use of public sector information.  CEEMID from the onset took benefit from the re-use of public sector information directive which had been replaced in 2019 with the 
+&lt;a href=&#34;https://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1561563110433&amp;amp;uri=CELEX:32019L1024&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;EU Open Data Directive&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The European governments, and the EU itself, collects information that is worth billions of euros for the commercial and non-governmental sector. While PSI is generally free, or very cheap in the EU, the re-use of these information sources usually requires deep knowledge and further investment, given that these public information sources were never designed for the secondary public or commercial need.&lt;/p&gt;
+&lt;p&gt;CEEMID has built hundreds of indicators from various EU public information sources.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;We are creating new music and audiovisual industry related statistics from raw data collected for other purposes, such as inflation measurement or public policy assessment in the EU using our proprietary software and some open source software.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Our economic impact assessment tool is, for example, builds heavily on our 
+&lt;a href=&#34;http://iotables.ceemid.eu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;iotables software&lt;/a&gt; that we released as an open source software within the framework of the 
+&lt;a href=&#34;http://ropengov.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;rOpenGov&lt;/a&gt; collaboration.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
       <title>eurobarometer R package</title>
       <link>/publication/eurobarometer_2020/</link>
       <pubDate>Thu, 25 Jun 2020 16:00:00 +0200</pubDate>
@@ -638,28 +660,6 @@ Relabelling&lt;/a&gt;&lt;/li&gt;
 &lt;p&gt;In 2020, all EU member states will change their copyright administration legislation because of the national implementations of the 2019/790 Digital Single Market directive. CEEMID provides evidence in several countries about the size and impact mechanism of the value transfer, and generally the widespread use of the copyright exemption for private copying. We believe that the thousands of pan-European music industry indicators that we have aggregated over the five years will play a vital role in these regulatory processes.&lt;/p&gt;
 &lt;p&gt;CEEMID fulfils its roles with a very thorough exploitation of the EU’s 17-years-old Open Data regime with the re-use of public sector information, and a very careful mapping of the music industry. These maps help us conduct annual surveys among musicians and the audience, and they help us connect (always with pre-approval and with a user mandate) to industry databases. We do not only cover the EU countries, but increasingly (potential) candidate countries and neighbourhood countries.&lt;/p&gt;
 &lt;p&gt;In our vision, this data collection and integration, i.e. Pillars 1-3 should be available for all music stakeholders, should remain public and publicly funded. The last Pillar of the observatory, innovation, is where private entities should compete. The founders of CEEMID and Consolidated Independent believe that this report demonstrates the business and policy benefits of such a system with the analysis of the Central &amp;amp; Eastern European music markets. We believe that this way CEEMID is in a position to serve most of the planned functions of the envisioned European Music Observatory, and we are looking for ways to make either our thousands of indicators, or our data collection and integration software open source and available for all stakeholders in the EU and its neighbours. CEEMID was born out of necessity to level out the different levels of public research and statistical coverage of the EU member states. In our view, private entities in the future should focus their investments in Pillar 4 of the planned observatory, i.e. competing in innovation with creating new models, algorithms and services based on data that is available throughout the European Union without giving further advantage to the already mature markets.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Open Data &amp; Re-use Of Public Sector Information</title>
-      <link>/reproducible/psi/</link>
-      <pubDate>Sun, 05 May 2019 19:36:00 +0200</pubDate>
-      <guid>/reproducible/psi/</guid>
-      <description>&lt;p&gt;I have been involved since 2003 in the creation of official and non-official statistics and in the re-use of public sector information.  CEEMID from the onset took benefit from the re-use of public sector information directive which had been replaced in 2019 with the 
-&lt;a href=&#34;https://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1561563110433&amp;amp;uri=CELEX:32019L1024&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;EU Open Data Directive&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;The European governments, and the EU itself, collects information that is worth billions of euros for the commercial and non-governmental sector. While PSI is generally free, or very cheap in the EU, the re-use of these information sources usually requires deep knowledge and further investment, given that these public information sources were never designed for the secondary public or commercial need.&lt;/p&gt;
-&lt;p&gt;CEEMID has built hundreds of indicators from various EU public information sources.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;We are creating new music and audiovisual industry related statistics from raw data collected for other purposes, such as inflation measurement or public policy assessment in the EU using our proprietary software and some open source software.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Our economic impact assessment tool is, for example, builds heavily on our 
-&lt;a href=&#34;http://iotables.ceemid.eu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;iotables software&lt;/a&gt; that we released as an open source software within the framework of the 
-&lt;a href=&#34;http://ropengov.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;rOpenGov&lt;/a&gt; collaboration.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
 </description>
     </item>
     
