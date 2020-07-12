@@ -5,12 +5,44 @@
     <link>/tags/</link>
       <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     <description>Tags</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020</copyright><lastBuildDate>Thu, 25 Jun 2020 16:00:00 +0200</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020</copyright><lastBuildDate>Thu, 09 Jul 2020 15:00:00 +0200</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>Tags</title>
       <link>/tags/</link>
     </image>
+    
+    <item>
+      <title>harmonization</title>
+      <link>/tag/harmonization/</link>
+      <pubDate>Thu, 09 Jul 2020 15:00:00 +0200</pubDate>
+      <guid>/tag/harmonization/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>open-data</title>
+      <link>/tag/open-data/</link>
+      <pubDate>Thu, 09 Jul 2020 15:00:00 +0200</pubDate>
+      <guid>/tag/open-data/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>R</title>
+      <link>/tag/r/</link>
+      <pubDate>Thu, 09 Jul 2020 15:00:00 +0200</pubDate>
+      <guid>/tag/r/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>surveys</title>
+      <link>/tag/surveys/</link>
+      <pubDate>Thu, 09 Jul 2020 15:00:00 +0200</pubDate>
+      <guid>/tag/surveys/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>eurobarometer</title>
@@ -25,14 +57,6 @@
       <link>/tag/r-bloggers/</link>
       <pubDate>Thu, 25 Jun 2020 16:00:00 +0200</pubDate>
       <guid>/tag/r-bloggers/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>surveys</title>
-      <link>/tag/surveys/</link>
-      <pubDate>Thu, 25 Jun 2020 16:00:00 +0200</pubDate>
-      <guid>/tag/surveys/</guid>
       <description></description>
     </item>
     
@@ -73,14 +97,6 @@
       <link>/tag/music-demand/</link>
       <pubDate>Thu, 16 Apr 2020 17:00:00 +0200</pubDate>
       <guid>/tag/music-demand/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>open-data</title>
-      <link>/tag/open-data/</link>
-      <pubDate>Thu, 16 Apr 2020 17:00:00 +0200</pubDate>
-      <guid>/tag/open-data/</guid>
       <description></description>
     </item>
     
@@ -257,14 +273,6 @@
       <link>/tag/multipliers/</link>
       <pubDate>Sat, 22 Dec 2018 11:00:00 +0100</pubDate>
       <guid>/tag/multipliers/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>R</title>
-      <link>/tag/r/</link>
-      <pubDate>Sat, 22 Dec 2018 11:00:00 +0100</pubDate>
-      <guid>/tag/r/</guid>
       <description></description>
     </item>
     

@@ -5,7 +5,7 @@
     <link>/authors/</link>
       <atom:link href="/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020</copyright><lastBuildDate>Thu, 25 Jun 2020 16:00:00 +0200</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020</copyright><lastBuildDate>Thu, 09 Jul 2020 15:00:00 +0200</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>Authors</title>
@@ -13,18 +13,18 @@
     </image>
     
     <item>
-      <title>Daniel Antal</title>
-      <link>/author/daniel-antal/</link>
-      <pubDate>Thu, 25 Jun 2020 16:00:00 +0200</pubDate>
-      <guid>/author/daniel-antal/</guid>
+      <title>Daniel Antal, CFA</title>
+      <link>/author/daniel-antal-cfa/</link>
+      <pubDate>Thu, 09 Jul 2020 15:00:00 +0200</pubDate>
+      <guid>/author/daniel-antal-cfa/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Daniel Antal, CFA</title>
-      <link>/author/daniel-antal-cfa/</link>
-      <pubDate>Thu, 16 Apr 2020 17:00:00 +0200</pubDate>
-      <guid>/author/daniel-antal-cfa/</guid>
+      <title>Daniel Antal</title>
+      <link>/author/daniel-antal/</link>
+      <pubDate>Thu, 25 Jun 2020 16:00:00 +0200</pubDate>
+      <guid>/author/daniel-antal/</guid>
       <description></description>
     </item>
     
