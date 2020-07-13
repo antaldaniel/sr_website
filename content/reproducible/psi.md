@@ -26,5 +26,3 @@ There is no free lunch. Using these data sources makes avoids the data collectio
 * We are creating thousans of music and audiovisual industry related indicators from raw data collected for other purposes, such as inflation measurement or public policy assessment in the EU using our proprietary software and some open source software. 
 
 * Our economic impact assessment tool is, for example, builds heavily on our [iotables software](http://iotables.ceemid.eu/) that we released as an open source software within the framework of the [rOpenGov](http://ropengov.github.io/) collaboration.
-
-
