@@ -9,7 +9,7 @@ toc = true
 type = "docs"  # Do not modify.
 
 # Add menu entry to sidebar.
-linktitle = "Modeling & Machine Learning Apps"
+linktitle = "Analytics applications"
 [menu.reproducible]
   parent = "Apps"
   weight = 32

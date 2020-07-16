@@ -1,11 +1,11 @@
 ---
 # Display name
-title: Istvan
-name: Istvan
+title: Istvan Zsoldos
+name: Istvan Zsoldos
 
 # Username (this should match the folder name)
 authors:
-- istvan
+- istvan_zsoldos
 
 # Is this the primary user of the site?
 superuser: false
@@ -67,4 +67,4 @@ user_groups:
 - Team
 ---
 
-Istvan is an experienced management consultant who works with advanced data analytics particularly in the energy sector and in macroeconomics. He is a contributor to the [regions package](publication/regions_2020/). 
+Istvan has experience in macroeconomics, corporate advisory and using data science to reveal information hidden in the data. He has experience with working for large corporations as well as being an independent consultant. He is a contributor to the [regions package](publication/regions_2020/) that we use for the creation of sub-national indicators and data panels. 

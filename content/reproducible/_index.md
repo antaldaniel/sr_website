@@ -10,7 +10,7 @@ type = "docs"  # Do not modify.
 
 # Add menu entry to sidebar.
 [menu.reproducible]
-  name = "Reproducible"
+  name = "Data Observatory"
   weight = 1
 +++
 
@@ -28,44 +28,18 @@ Our data analytics applications are reviewable and reproducible, which allows in
 
 * [Experimental and Innovative Data Sources](/reproducible/big_data/) such as re-use of public sector information and big data sources.
 
-## What is reproducability?
+## Observatories
 
-- **Reviewability** means that our application’s results are can be assessed and judged by our user’s experts, or experts they trust.
+An **observatory** is a location used for observing terrestrial or celestial events. The European Commission and the Council of Europe are supporting numerous data observatories to support research and development and evidence-based policymaking.
+We are creating automated observatories following the best practices of reproducible research. [See some observatories >>>](https://documentation.satellitereport.com/index.php?title=Observatory) 
 
-- **Reproducibility** means that we are providing data products and tools that allow the exact duplication of our results during assessments.  This makes sure that all logical steps can be verified. Reproducibility ensures that there is no lock-in to our applications. You can always chose a different data and software vendor, or compare our results with them.
+* A *private observatory* is a data integration system, which automatically collects external information, processes it and professionally joins it with internal data resources.  
 
-We are creating applications that are confirmable and auditable. These are usually required by the ethical guidelines and professional standards of our users. 
+* A *collaborative observatory* is a data integration system that has a map to collaborating institutions’s data resources, and is able to exploit their synergies by automatically combining their data, triggered by an authorization of all involved parties.
 
-- **Confirmability** means that using our applications findings leads to the same professional results as other available software and information. Our data products use the open-source statistical programming language R. We provide details about our algorithms and methodology to confirm our results in SPSS or Stata or sometimes even in Excel.
+* A *public observatory* is a collaborative observatory that intends to make at least some of its data assets available as open data. 
+ode chunk to prevent printing of the R code that generated the plot.
 
-- **Auditability** means that our data and software is archived in a way that external auditors can later review, reproduce and confirm our findings.  This is a _stricter form of data retention_ that most organizations apply, because we do not only archive results step-by-step but all computational steps – as if your colleagues would not only save every step in Excel but also their keystrokes. While auditability is a requirement in accounting, but we are extending this approach to all the quantiative work of a professional organization in an advisory or consulting capacity.
+Our observatories fulfil important functions in data collection, processing, integration, and automated modelling. We provide these services as custom software as service products in the form of **data applications**.  To design a good observatory that fulfils your business, policy, scientific or journalistic needs, we provide data curating as a consulting service.
 
-Because our data applications are confirmable and auditable, they are the best suited to meet the internal or external regulatory compliance of organizations, for example, reporting to external regulators or supervisory boards. 
-
-Some of our data products are very complex and require extremely specialized knowledge. If your organization does not understand the boundary changes of European statistical regions or you do not have experts who are both familiar with government accounts and matrix algebra, you would not be able to review, reproduce, confirm and audit our regional products or economic impact assessments. 
-
-In these cases, we adhere to the strictest form of reproducibility, opening our software and data created by our software to the professional and scientific public.  This means that we make specialized elements of our data applications available as open-source software and its replicable findings as open data. This ensures that anyone in the world may confirm and audit our findings.  We believe that opening our code and our data to competitors and everybody else may increase competition, but it also increases the security of our software and provides the necessary trust for our applications in these cases.
-
-## What is reproducible research?
-
-Reproducible research is a scientific concept that can be applied to a wide range of professional designations, for example, reproducible finance in the investment process or reproducible impact assessment in policy consulting. Based on the computational reproducibility [ref] we provide tools for consultants and analysts that fulfil the following principles
-
--	Reviewable findings: The descriptions of the methods can be independently assessed, and the results judged credible. In our view, this is a fundamental requirement for all professional applications.
-
--	Replicable findings: We are presenting our findings and provide tools so that our users or auditors or external authorities can duplicate our results. 
-
--	Confirmable findings: The main conclusions of the research can be attained independently without our software, because we describe in detail the algorithms and and methodology in supplementary materials. We believe that other organizations, analysts, statisticians must come to the same findings with their own methods and software. This avoid lock-in and allows independent cross-examination.
-
--	Auditable findings: Sufficient records (including data and software) have been archived so that the research can be defended later if necessary or differences between independent confirmations resolved. The archive might be private, as with traditional laboratory notebooks.
-
-These computational requirements require a data workflow that relies on further principles.
-
--	Record retention: all aspects of reproducibility require a high level of standardized documentation. The standardization of documentation requires the use of standardized metadata, metadata structures, taxonomies, vocabularies.
-
--	Best available information / data universe:  the quality of the findings, their confirmation and auditing success will improve with better data and facts used. 
-
--	Data validations: The quality of the findings will greatly depend on the factual inputs.  While the reproducible findings may have many problems, inputting erroneous data or faulty information will likely lead to wrong conclusions, and in all cases will make confirmation and auditing impossible. Especially when organizations use large and heterogenous data sources, even small errors, such as erroneous currency translations or accidental misuse of decimals, units can cause results that will not pass confirmation or auditing.
-
-Not only scientists, but many professional designations, like lawyers or CFA charterholders must make their findings, recommendations to be auditable.  Management and policy consultants always work with new challenges and continuously expand their available fact and data universe.  Satellite Report helps them with reproducible research tools to make these processes fast, low-cost, error-free, well-documented and archived.
-
-Open or Reproducible Research is auditable research made openly available. We make some of our critical data procedures open, by publishing both our software code as open-source software and data created by our software as open data to invite peer-review challenges. We make our know-how open to collaboration when we use know-how that is scarce and internal validation is not possible – for example, when working with a highly structured national accounts products or difficult regional data boundaries.
+The observatories are accompanied by **automated reporting tools**.  These reporting tools make sure that your quantitative findings, regulatory filings, internationally localized dissemination is fully documented in a reviewable, replicable, confirmable and auditable manner. We create automatically refreshing technical documentations, dashboards, presentations, localizations saving thousands of error-prone human documentation hours. For larger business, policy development or journalistic projects we provide data-driven analytics consultancy and training for your teams to make the best use of their data observatory.
