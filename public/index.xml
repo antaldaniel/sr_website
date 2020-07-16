@@ -5,12 +5,48 @@
     <link>/</link>
       <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <description>Satellite Report</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020</copyright><lastBuildDate>Fri, 10 Jul 2020 10:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020</copyright><lastBuildDate>Thu, 16 Jul 2020 10:00:00 +0200</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>Satellite Report</title>
       <link>/</link>
     </image>
+    
+    <item>
+      <title>Reproducible Research</title>
+      <link>/reproducible/reproducible/</link>
+      <pubDate>Thu, 16 Jul 2020 10:00:00 +0200</pubDate>
+      <guid>/reproducible/reproducible/</guid>
+      <description>&lt;h2 id=&#34;reproducible-research&#34;&gt;Reproducible Research&lt;/h2&gt;
+&lt;p&gt;We apply data science, and intersection of quantitative social sciences &amp;amp; management science, statistics and computer science, to make data collection, processing and analysis fully reproducible.  Our observatory systems allow users to save thousands of working hours in data collection, in senior supervision, documentation and compliance functions. We want to help business researchers, policymakers, scientists and journalist to focus on what they do best, and use the latest, most complete, and perfectly processed information to support their work.&lt;/p&gt;
+&lt;p&gt;Our methodology can be used in business consultancy, evidence-based policy making, social and management science and data journalism. We thrive to support all these communities, because by incorporating their different review, confirmation and auditing processing, and provide an even more reliable, robust data services to all of our users.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Reviewability&lt;/strong&gt; means that our application’s results are can be assessed and judged by our user’s experts, or experts they trust. We not only automate data collection and cleaning, but we also automate documentation.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Reviewability for &lt;em&gt;professional consultants&lt;/em&gt; means that the data is always avaible with the freshest forms and with up-to-date documentation, instead of ad hoc spreadsheets collected, modified and overwritten by junior staff. The usual error-prone work that junior staff does is done by our observatory system automatically, and all the latest spreadsheets are available for all staff.&lt;/li&gt;
+&lt;li&gt;Reviewability in a &lt;em&gt;scientific context&lt;/em&gt; means that our observatory systems produce the research data in a well-documented format that adheres to the expectation of social scientific and management science peer-review.&lt;/li&gt;
+&lt;li&gt;Reviewability in &lt;em&gt;data journalism&lt;/em&gt; means that all the data is automatically refreshed and present for journalistic and editorial source-checking and analysis.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Reproducibility&lt;/strong&gt; means that we are providing data products and tools that allow the exact duplication of our results during assessments. The most important aspect of our reproducibility is that we make the entire statistical program code either fully open source, or make the entire algorithm available for our clients. From the raw data that they give us, or we collect for them, they can arrive step-by-step to the same indicator or KPI values. Reproducibility ensures that there is no lock-in to our applications. You can always chose a different data and software vendor, or compare our results with them.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Reproducibility in &lt;em&gt;a consulting context&lt;/em&gt; means that our data is well-processed and described, and a senior analyst can re-create it, or even modify it to the organizations needs.&lt;/li&gt;
+&lt;li&gt;In &lt;em&gt;a scientific context&lt;/em&gt; it means that other researchers can reproduce the scientific findings which are supported by our data, because it is of high quality, well formatted and documented.&lt;/li&gt;
+&lt;li&gt;In &lt;em&gt;data journalism&lt;/em&gt; this means that journalist can reliably follow leads and sources over a longer period of time.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We are creating applications that are confirmable and auditable. These are usually required by the ethical guidelines and professional standards of our users.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Confirmability&lt;/strong&gt; means that using our applications findings leads to the same professional results as other available software and information. Our data products use the open-source statistical programming language R. We provide details about our algorithms and methodology to confirm our results in SPSS or Stata or sometimes even in Excel or OpenOffice. Confirmability is often a requirement of various ethical guideleins and professional standards that our clients must adhere to in the legal, economic or policy-making professions.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Reproducibility in a &lt;em&gt;consulting context&lt;/em&gt; means that our data is well-processed and described, and a senior analyst can re-create it, or even modify it to the organizations needs.  They can confront the data with their qualitative results or parallel information bases.&lt;/li&gt;
+&lt;li&gt;In a &lt;em&gt;scientific context&lt;/em&gt; it means that other researchers can reproduce the scientific findings which are supported by our data, because it is of high quality, well formatted and documented. If any issues are raised with scientific confirmation, we assist our scientific partner to amend, replace or correct the problematic data.&lt;/li&gt;
+&lt;li&gt;In &lt;em&gt;data journalism&lt;/em&gt; this means that journalist can reliably follow leads and sources over a longer period of time. We review the entire data pipeline if our journalistic partners find contrary evidence or red flags with our data sources.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Auditability&lt;/strong&gt; means that our data and software is archived in a way that external auditors can later review, reproduce and confirm our findings.  This is a &lt;em&gt;stricter form of data retention&lt;/em&gt; that most organizations apply, because we do not only archive results step-by-step but all computational steps – as if your colleagues would not only save every step in Excel but also their keystrokes. While auditability is a requirement in accounting, but we are extending this approach to all the quantitative work of a professional organization in an advisory or consulting capacity.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Auditability means that we are following &lt;em&gt;professional guidelines and standards&lt;/em&gt; of various statistical, accounting, national accounting and other professional bodies to develop our indicators and data products, and we allow auditors to review not only our data, but the entire history of the data processing, including key elements of our software code, and our general methodology.&lt;/li&gt;
+&lt;li&gt;Auditability means for us that we make our critical methods and software code available for &lt;em&gt;peer-review&lt;/em&gt; both as a software on CRAN and as a statistical method in an appropriate, peer-reviewed journal.&lt;/li&gt;
+&lt;li&gt;In a data journalism context our data products can be subject to &lt;em&gt;full editorial and journalistic&lt;/em&gt; review, from source to publication.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>Team</title>
@@ -84,6 +120,16 @@
     </item>
     
     <item>
+      <title>Apps</title>
+      <link>/reproducible/dashboards/</link>
+      <pubDate>Fri, 10 Jul 2020 10:00:00 +0200</pubDate>
+      <guid>/reproducible/dashboards/</guid>
+      <description>&lt;h2 id=&#34;reproducible-dashboards&#34;&gt;Reproducible dashboards&lt;/h2&gt;
+&lt;p&gt;Our apps can integrate your internal financial or transactional data with thousands of external indicators from official statistics to satellite sensory data.  We make sure that your organization always has valid KPIs that are aware of the changes of your working environment.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Data Maps</title>
       <link>/reproducible/data_maps/</link>
       <pubDate>Fri, 10 Jul 2020 10:00:00 +0200</pubDate>
@@ -109,7 +155,16 @@
       <link>/reproducible/apps/</link>
       <pubDate>Fri, 10 Jul 2020 10:00:00 +0200</pubDate>
       <guid>/reproducible/apps/</guid>
-      <description>&lt;p&gt;Apps&lt;/p&gt;
+      <description>&lt;h2 id=&#34;apps&#34;&gt;Apps&lt;/h2&gt;
+&lt;p&gt;We create applications that implement data collection, reporting and data analysis task in a reproducible manner. These applications are automatically documenting each step of these processes, and they are under constant supervision by data scientists. This makes sure that your team will always use the latest, well-processed, error-free data.&lt;/p&gt;
+&lt;h2 id=&#34;reproducible-data-retrieval&#34;&gt;Reproducible Data Retrieval&lt;/h2&gt;
+&lt;p&gt;In many consulting companies and think tanks, junior staff is downloading statistical data, reports, and other external information for later use. We believe that this approach is wasteful, error-prone, and creates huge unnecessary workload during the analysis and the supervision of the work.&lt;/p&gt;
+&lt;p&gt;Analysts usually spend at least 80% of their work with data processing steps: pulling information out from spreadsheets and resources, and try to match them. Data arriving even from respectable institutions such as the Eurostat or industry organizations need a lot of adjustment for unit of measure, regional boundary changes, decimal places, and various identifier abbreviations. These steps cannot be reproduced in a file-based, spreadsheet workflow, and they create a major bottleneck in senior staff supervision.&lt;/p&gt;
+&lt;p&gt;Our applications put the data from various sources into tidy formats (a statistical definition of well-formatted data that can easily be joined with other data tables), making sure that suitable unit and currency translations took place, the missing values are professionally interpolated, forecasted or backcasted, and the latest data revisions are available.  We provide a one-point entry of well-formatted data for further use in your team&amp;rsquo;s favorite spreadsheet or statistical applications like Excel, OpenOffice, SPSS or Stata.&lt;/p&gt;
+&lt;h2 id=&#34;reproducible-modelling&#34;&gt;Reproducible modelling&lt;/h2&gt;
+&lt;p&gt;We provide applications that are able to run thousands, or even tens of thousands of model combinations for pre-selection. The best model candidates are available with pre-processed data (without outliers, missing values when needed and valid performance metrics.)&lt;/p&gt;
+&lt;h2 id=&#34;reproducible-dashboards&#34;&gt;Reproducible dashboards&lt;/h2&gt;
+&lt;p&gt;Our apps can integrate your internal financial or transactional data with thousands of external indicators from official statistics to satellite sensory data.  We make sure that your organization always has valid KPIs that are aware of the changes of your working environment.&lt;/p&gt;
 </description>
     </item>
     
@@ -118,8 +173,29 @@
       <link>/reproducible/surveys/</link>
       <pubDate>Fri, 10 Jul 2020 10:00:00 +0200</pubDate>
       <guid>/reproducible/surveys/</guid>
-      <description>&lt;p&gt;The very techincal terms of ex ante , ex post or retrospective harmonization hide opportunities that can significantly increase the value for money in empirical market research, potentially increasing the value of a high-cost, high-value survey to multiple times of its euro value.&lt;/p&gt;
-&lt;p&gt;In my work, I have used ex ante harmonized questionnaires with EU survey programs, for example, the harmonized CAP surveys to determine the characteristics of concert audiences in a country, or people who download music to their computers. The EU has been opening up its own survey programs in a piecemeal fashion, and surveys used by the European Commission, the Parliament, or even the national statistical offices are becoming more and more available. After harmonizing the questions, I can apply ex post harmonization of the results, too, resulting in a far more valuable research document.&lt;/p&gt;
+      <description>&lt;p&gt;We are designing survey questionnaires and create data integration code for harmonized surveys. Harmonized surveys are asking the very same questions, and they can be integrated. Our surveys planned for 2020 in Slovakia for example have comparative data from earlier years in Slovakia, but also from its neighbouring countries and Germany or France.&lt;/p&gt;
+&lt;p&gt;The very technical terms of &lt;em&gt;ex ante&lt;/em&gt; , &lt;em&gt;ex post&lt;/em&gt; or retrospective harmonization hide opportunities that can significantly increase the value for money in empirical market research, potentially increasing the value of a high-cost, high-value survey to multiple times of its euro value.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;We can usually compare the basic values, such as concert visiting likelihood in the past – for example, I surveyed Hungary and Slovakia first in 2015, but immediately could compare with 2013 and 2007 data.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src=&#34;/gif/concert_hu_animation.gif&#34; alt=&#34;Harmonized concert visiting questions over time&#34;&gt;&lt;/p&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;We get international benchmarks for free, for example, German, Czech, French data.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src=&#34;/img/cee_concert_demography_15x10.jpg&#34; alt=&#34;Harmonized concert visiting questions accross countries&#34;&gt;&lt;/p&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;Using the hierarchical nature of our surveys, we can make reasonable estimates of details that we only in one or few countries for the whole EU.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The value added to our surveys are building on our investment into a reproducible research infrastructure that is able to connect to millions of interview transcriptions programatically.&lt;/p&gt;
+&lt;p&gt;We are making critical elements of our software open source (for non-commercial use), because we believe that the key elements of reproducibility, particularly replicability and confirmability rely on a full openness about our data processing and data transformations.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The website of the  
+&lt;a href=&#34;http://retroharmonize.satellitereport.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;retroharmonize&lt;/a&gt; package&lt;/li&gt;
+&lt;li&gt;The website of the 
+&lt;a href=&#34;http://eurobarometer.danielantal.eu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;eurobarometer&lt;/a&gt; package&lt;/li&gt;
+&lt;li&gt;The website of the 
+&lt;a href=&#34;http://regions.danielantal.eu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;regions&lt;/a&gt; package&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     
@@ -128,7 +204,18 @@
       <link>/reproducible/journalism/</link>
       <pubDate>Fri, 10 Jul 2020 10:00:00 +0200</pubDate>
       <guid>/reproducible/journalism/</guid>
-      <description>&lt;p&gt;We believe that reproducible research is the bedrock of data journalism.&lt;/p&gt;
+      <description>&lt;p&gt;For data journalism, two cornerstones of reproducible research, namely reviewability by editors and confirmability by other sources are essential requirements.  Our data integration system can produce thousands of reviewable and confirmable facts.&lt;/p&gt;
+&lt;p&gt;Open data means that there is too much data and information available as business, scientific or journalistic, and we believe that our data sources should have scientific and journalistic corroboration for business uses, too.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Apps</title>
+      <link>/reproducible/modeling/</link>
+      <pubDate>Fri, 10 Jul 2020 10:00:00 +0200</pubDate>
+      <guid>/reproducible/modeling/</guid>
+      <description>&lt;h2 id=&#34;reproducible-modeling&#34;&gt;Reproducible modeling&lt;/h2&gt;
+&lt;p&gt;We provide applications that are able to run thousands, or even tens of thousands of model combinations for pre-selection. The best model candidates are available with pre-processed data (without outliers, missing values when needed and valid performance metrics.)&lt;/p&gt;
 </description>
     </item>
     
@@ -137,13 +224,14 @@
       <link>/reproducible/psi/</link>
       <pubDate>Fri, 10 Jul 2020 10:00:00 +0200</pubDate>
       <guid>/reproducible/psi/</guid>
-      <description>&lt;p&gt;I have been involved since 2003 in the creation of official and non-official statistics and in the re-use of public sector information.  CEEMID from the onset took benefit from the re-use of public sector information directive which had been replaced in 2019 with the 
-&lt;a href=&#34;https://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1561563110433&amp;amp;uri=CELEX:32019L1024&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;EU Open Data Directive&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;The European governments, and the EU itself, collects information that is worth billions of euros for the commercial and non-governmental sector. While PSI is generally free, or very cheap in the EU, the re-use of these information sources usually requires deep knowledge and further investment, given that these public information sources were never designed for the secondary public or commercial need.&lt;/p&gt;
-&lt;p&gt;CEEMID has built hundreds of indicators from various EU public information sources.&lt;/p&gt;
+      <description>&lt;p&gt;The European governments, and the EU itself, collects information that is worth billions of euros for the commercial and non-governmental sector. While PSI is generally free, or very cheap in the EU, the re-use of these information sources usually requires deep knowledge and further investment, given that these public information sources were never designed for the secondary public or commercial need.&lt;/p&gt;
+&lt;p&gt;Satellite Report founder Daniel Antal has been involved in the re-use of public sector information since 2003, when the EU first opened government sources to the business sector on a European level. Satellite Report builds on 17 years of experience with accessing various information sources originally collected by the public sector.&lt;/p&gt;
+&lt;p&gt;The re-use of public sector information directive which had been replaced in 2019 with the 
+&lt;a href=&#34;https://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1561563110433&amp;amp;uri=CELEX:32019L1024&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;EU Open Data Directive&lt;/a&gt;, and it allows a very wide access to data with a market value of tens of billions of euros.&lt;/p&gt;
+&lt;p&gt;There is no free lunch. Using these data sources makes avoids the data collection cost, but processing datasets originally created for governmental or scientific use requires a very significant investment. Our statistica software that helps in this process has been developed over years.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;We are creating new music and audiovisual industry related statistics from raw data collected for other purposes, such as inflation measurement or public policy assessment in the EU using our proprietary software and some open source software.&lt;/p&gt;
+&lt;p&gt;We are creating thousans of music and audiovisual industry related indicators from raw data collected for other purposes, such as inflation measurement or public policy assessment in the EU using our proprietary software and some open source software.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Our economic impact assessment tool is, for example, builds heavily on our 
@@ -163,7 +251,7 @@
 &lt;a href=&#34;publication/retroharmonize_2020/&#34;&gt;retroharmonize&lt;/a&gt; for the &lt;em&gt;ex post&lt;/em&gt; harmonization infrastructure of surveys, and  
 &lt;a href=&#34;publication/eurobarometer_2020/&#34;&gt;eurobarometer&lt;/a&gt; for Eurobarometer-specific work, complemented by my earlier release of 
 &lt;a href=&#34;publication/regions_2020/&#34;&gt;regions&lt;/a&gt;, which tracks about 20,000 regional boundary changes of French departments, Polish voivodeships and Hungarian counties, and other sub-national divisions of about 32 European countries.&lt;/p&gt;
-&lt;p&gt;The very techincal terms of &lt;em&gt;ex ante&lt;/em&gt; , &lt;em&gt;ex post&lt;/em&gt; or retrospective harmonization hide opportunities that can significantly increase the value for money in empirical market research, potentially increasing the value of a high-cost, high-value survey to multiple times of its euro value.&lt;/p&gt;
+&lt;p&gt;The very technical terms of &lt;em&gt;ex ante&lt;/em&gt; , &lt;em&gt;ex post&lt;/em&gt; or retrospective harmonization hide opportunities that can significantly increase the value for money in empirical market research, potentially increasing the value of a high-cost, high-value survey to multiple times of its euro value.&lt;/p&gt;
 &lt;p&gt;In my work, I have used &lt;em&gt;ex ante&lt;/em&gt; harmonized questionnaires with EU survey programs, for example, the harmonized CAP surveys to determine the characteristics of concert audiences in a country, or people who download music to their computers.  The EU has been opening up its own survey programs in a piecemeal fashion, and surveys used by the European Commission, the Parliament, or even the national statistical offices are becoming more and more available.  After harmonizing the questions, I can apply &lt;em&gt;ex post&lt;/em&gt; harmonization of the results, too, resulting in a far more valuable research document:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;I can usually compare the basic values, such as concert visiting likelihood in the past – for example, I surveyed Hungary and Slovakia first in 2015, but immediately could compare with 2013 and 2007 data.&lt;/li&gt;
