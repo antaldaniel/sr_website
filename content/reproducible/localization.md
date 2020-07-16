@@ -15,7 +15,6 @@ linktitle = "Live Localization"
   weight = 72
 +++
 
-
 ## Live Localization
 
 Our live reporting technology is particularly suitable for international localization projects. We make sure that all non-textual elements, such as graphs, charts, bibliographies, footnotes are always updated in all language variants.
