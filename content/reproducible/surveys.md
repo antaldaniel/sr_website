@@ -11,7 +11,7 @@ type = "docs"  # Do not modify.
 # Add menu entry to sidebar.
 linktitle = "Harmonized Surveys"
 [menu.reproducible]
-  parent = "Surveys"
+  parent = "Sources"
   weight = 60
 +++
 

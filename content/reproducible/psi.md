@@ -11,7 +11,7 @@ type = "docs"  # Do not modify
 # Add menu entry to sidebar.
 linktitle = "Open Data & Public Sector Information"
 [menu.reproducible]
-  parent = "Experimental Data Sources"
+  parent = "Sources"
   weight = 72
 +++
 
