@@ -17,6 +17,6 @@ linktitle = "Live Localization"
 
 ## Live Localization
 
-Our live reporting technology is particularly suitable for international localization projects. We make sure that all non-textual elements, such as graphs, charts, bibliographies, footnotes are always updated in all language variants.
+Our [live reporting technology](https://satellitereport.com/reproducible/reports/) is particularly suitable for international localization projects. We make sure that all non-textual elements, such as graphs, charts, bibliographies, footnotes are always updated in all language variants.
 
 Often the presence of high labour-input tables and charts are the barriers to otherwise valuable language localizations. Our technology integrates the text with the data ingestion pipeline, the analysis and visualization and provides a good platform to automate this process, making newsletters, dashboards, interactive visualization open for multi-language use.
