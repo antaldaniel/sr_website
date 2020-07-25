@@ -378,6 +378,8 @@ eurostat::get_bibentry("demo_r_pjangrp3")
 </div>
 <div id="ref-R-eurostat">
 <p>Lahti, Leo, Janne Huovari, Markus Kainu, and Przemyslaw Biecek. 2020. <em>Eurostat: Tools for Eurostat Open Data</em>. <a href="https://CRAN.R-project.org/package=eurostat">https://CRAN.R-project.org/package=eurostat</a>.</p>
+<div id="ref-R-eurostat">
+<p>Hadley Wickham. 2014. <em>Tidy Data</em>.Journal of Statistical Software vol 59, no 10.<a href="https://www.jstatsoft.org/v059/i10">https://www.jstatsoft.org/v059/i10</a>.</p>
 </div>
 </div>
 </div>
