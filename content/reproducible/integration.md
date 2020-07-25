@@ -9,7 +9,7 @@ toc = true
 type = "docs"  # Do not modify.
 
 # Add menu entry to sidebar.
-linktitle = "Data Retrieval & Analysis Apps"
+linktitle = "Integrate Your Data With External Data"
 [menu.reproducible]
   parent = "Apps"
   weight = 30

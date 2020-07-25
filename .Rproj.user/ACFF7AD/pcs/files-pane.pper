@@ -1,9 +1,9 @@
 {
-    "path": "C:/Users/Daniel Antal/OneDrive - Visegrad Investments/_website/sr_website",
+    "path": "C:/Users/Daniel Antal/OneDrive - Visegrad Investments/sr_website",
     "sortOrder": [
         {
-            "ascending": true,
-            "columnIndex": 2
+            "columnIndex": 2,
+            "ascending": true
         }
     ]
 }

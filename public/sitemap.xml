@@ -3,12 +3,52 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/reproducible/reproducible/</loc>
-    <lastmod>2020-07-16T10:00:00+02:00</lastmod>
+    <loc>/authors/</loc>
+    <lastmod>2020-07-24T15:00:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/daniel-antal-cfa/</loc>
+    <lastmod>2020-07-24T15:00:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/open-data/</loc>
+    <lastmod>2020-07-24T15:00:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/</loc>
+    <lastmod>2020-07-24T15:00:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/r/</loc>
+    <lastmod>2020-07-24T15:00:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/reproducible/</loc>
+    <lastmod>2020-07-24T15:00:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2020-07-25-reproducible_ingestion/</loc>
+    <lastmod>2020-07-24T15:00:00+02:00</lastmod>
   </url>
   
   <url>
     <loc>/</loc>
+    <lastmod>2020-07-24T15:00:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2020-07-24T15:00:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/reproducible/reproducible/</loc>
     <lastmod>2020-07-16T10:00:00+02:00</lastmod>
   </url>
   
@@ -18,12 +58,12 @@
   </url>
   
   <url>
-    <loc>/reproducible/reports/</loc>
-    <lastmod>2020-07-10T10:00:00+02:00</lastmod>
+    <loc>/reproducible/modeling/</loc>
+    <lastmod>2020-07-16T10:00:00+02:00</lastmod>
   </url>
   
   <url>
-    <loc>/reproducible/big_data/</loc>
+    <loc>/reproducible/consulting/</loc>
     <lastmod>2020-07-10T10:00:00+02:00</lastmod>
   </url>
   
@@ -43,6 +83,11 @@
   </url>
   
   <url>
+    <loc>/reproducible/curation/</loc>
+    <lastmod>2020-07-10T10:00:00+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/reproducible/data_maps/</loc>
     <lastmod>2020-07-10T10:00:00+02:00</lastmod>
   </url>
@@ -53,7 +98,17 @@
   </url>
   
   <url>
+    <loc>/reproducible/experimental/</loc>
+    <lastmod>2020-07-10T10:00:00+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/reproducible/surveys/</loc>
+    <lastmod>2020-07-10T10:00:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/reproducible/integration/</loc>
     <lastmod>2020-07-10T10:00:00+02:00</lastmod>
   </url>
   
@@ -63,7 +118,12 @@
   </url>
   
   <url>
-    <loc>/reproducible/modeling/</loc>
+    <loc>/reproducible/localization/</loc>
+    <lastmod>2020-07-10T10:00:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/reproducible/reports/</loc>
     <lastmod>2020-07-10T10:00:00+02:00</lastmod>
   </url>
   
@@ -78,16 +138,6 @@
   </url>
   
   <url>
-    <loc>/authors/</loc>
-    <lastmod>2020-07-09T15:00:00+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/daniel-antal-cfa/</loc>
-    <lastmod>2020-07-09T15:00:00+02:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/tag/harmonization/</loc>
     <lastmod>2020-07-09T15:00:00+02:00</lastmod>
   </url>
@@ -98,27 +148,7 @@
   </url>
   
   <url>
-    <loc>/tag/open-data/</loc>
-    <lastmod>2020-07-09T15:00:00+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/post/</loc>
-    <lastmod>2020-07-09T15:00:00+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/r/</loc>
-    <lastmod>2020-07-09T15:00:00+02:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/tag/surveys/</loc>
-    <lastmod>2020-07-09T15:00:00+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
     <lastmod>2020-07-09T15:00:00+02:00</lastmod>
   </url>
   
@@ -386,7 +416,7 @@
   </url>
   
   <url>
-    <loc>/author/istvan/</loc>
+    <loc>/author/istvan-zsoldos/</loc>
   </url>
   
   <url>
