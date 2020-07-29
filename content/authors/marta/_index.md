@@ -1,7 +1,7 @@
 ---
 # Display name
 title: Marta
-name: Marta
+name:  Marta Kolczyńska, PhD
 
 # Username (this should match the folder name)
 authors:
@@ -70,4 +70,5 @@ user_groups:
 - Team
 ---
 
-Marta is an experienced researcher and expert in harmonizing data from primary data sources, particularly surveys. She is specialized on quantitative methods for comparative and cross-national research and survey data harmonization and comparability. Her work is particuarly important in integrating market research and scientific research data into larger data assets to understand international comparison or changes over time. She is a co-author of the [eurobarometer package](publication/eurobarometer_2020/).
+
+Marta is an experienced researcher specializing in harmonizing data from primary data sources, particularly social surveys. Her work applies quantitative methods to cross-national comparative analyses of political attitudes and behavior, with special attention paid to data quality and comparability. Her work is particularly important in integrating market research and scientific research data into larger data assets to understand international comparison or changes over time. She is a co-creator of the [eurobarometer package](publication/eurobarometer_2020/) and the [retroharmonize](http://retroharmonize.satellitereport.com/) package.
