@@ -48,18 +48,18 @@ social:
   link: '#contact'  # For a direct email link, use "mailto:test@example.org".
 - icon: twitter
   icon_pack: fab
-  link: 
-- icon: google-scholar
+  link: https://twitter.com/MartaKolcz
+- icon: orcid
   icon_pack: ai
-  link: 
+  link: https://orcid.org/0000-0003-4981-0437
 - icon: github
   icon_pack: fab
   link: https://github.com/mkolczynska
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
-# - icon: cv
-#   icon_pack: ai
-#   link: files/cv.pdf
+- icon: cv
+  icon_pack: ai
+  link: cv/marta_kolczynska.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ""
