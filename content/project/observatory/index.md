@@ -46,6 +46,7 @@ url_code = ""
 An **observatory** is a location used for observing terrestrial or celestial events. The European Commission and the Council of Europe are supporting numerous data observatories to support research and development and evidence-based policymaking. We are creating automated observatories following the best practices of reproducible research.
 
 Satellite Report grew out of a such an observatory, [CEEMID](https://ceemid.eu/). 
+
 ## Data Observatories
 
 A few examples:
@@ -58,12 +59,6 @@ A few examples:
 the Competitiveness of Enterprises and SMEs (COSME).
 
 * The [Cluster Observatory](http://www.clusterobservatory.eu/) of the Center for Strategy and Competitiveness at the Stockholm School of Economics, which started out originally as the European Cluster Observatory.
-
-* [CEEMID](https://ceemid.eu/) is a data integration system that could provide to be a model and starting point of building a [European Music Observatory](https://documentation.ceemid.eu/index.php?title=European_Music_Observatory) based on open data, open-source software using best statistics, data science and AI practices. CEEMID has created thousands of high-value, hard music industry indicators using open data sources, industry data sources, surveys and various APIs to relevant other data sources. (More on [ceemid.eu](https://ceemid.eu/) website.)
-
-CEEMID is aiming to transfer thousands of indicators and a verifiable, open-source software that creates them to the European Music Observatory to give Europe-wide acces timely, reliable, actionable statistics and indicators for the music industry, policymakers and music professionals. (Read more about our [data coverage](https://documentation.ceemid.eu/index.php?title=Main_Page#Data_Coverage))
-
-Satellite Report is aiming to support this transition, and at the same time, create new data products for other creative industries. See [our call for partners](http://demoobservatory.ceemid.eu/).
 
 ## Open source, open data, open collaboration
 

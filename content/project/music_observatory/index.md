@@ -43,23 +43,10 @@ url_code = ""
   focal_point = "Smart"
 +++
 
-Data Observatories are collaborations of research institutes, industry, universities and European policymakers to provide an industry/policy area with continous data collection and dissemmination.  Satellite Report grew out of a such an observatory, [CEEMID](https://ceemid.eu/). 
-## Data Observatories
+An **observatory** is a location used for observing terrestrial or celestial events. The European Commission and the Council of Europe are supporting numerous data observatories to support research and development and evidence-based policymaking. (See: Observatories.)
+We are creating automated observatories following the best practices of reproducible research.
 
-A few examples:
-
-* The [European Alternative Fuels Observatory](https://www.eafo.eu/) is an European Commission funded initiative which provides open and free information, amongst others to support Member States with the implementation of EU Directive 2014/94 on the deployment of alternative fuels infrastructure. The EAFO is maintained by the [EAFO Consortium](https://www.eafo.eu/knowledge-center/consortium).
-
-* The [EU Energy Poverty Observatory](https://www.energypoverty.eu/about/about-observatory) (EPOV) is an initiative by the European Commission to help Member States in their efforts to combat energy poverty. It exists to improve the measuring, monitoring and sharing of knowledge and best practice on energy poverty, and it is developed by a consortium of universities, think tanks, and the business sector.
-
-* The [European Observatory for Clusters and Industrial Change](https://www.clustercollaboration.eu/eu-initiatives/european-cluster-observatory) to help Europe's regions and countries in designing better and more evidence-based cluster policies and initiatives. This platform is funded by the EU programme for
-the Competitiveness of Enterprises and SMEs (COSME).
-
-* The [Cluster Observatory](http://www.clusterobservatory.eu/) of the Center for Strategy and Competitiveness at the Stockholm School of Economics, which started out originally as the European Cluster Observatory.
-
-* [CEEMID](https://ceemid.eu/) is a data integration system that could provide to be a model and starting point of building a [European Music Observatory](https://documentation.ceemid.eu/index.php?title=European_Music_Observatory) based on open data, open-source software using best statistics, data science and AI practices. CEEMID has created thousands of high-value, hard music industry indicators using open data sources, industry data sources, surveys and various APIs to relevant other data sources. (More on [ceemid.eu](https://ceemid.eu/) website.)
-
-CEEMID is aiming to transfer thousands of indicators and a verifiable, open-source software that creates them to the European Music Observatory to give Europe-wide acces timely, reliable, actionable statistics and indicators for the music industry, policymakers and music professionals. (Read more about our [data coverage](https://documentation.ceemid.eu/index.php?title=Main_Page#Data_Coverage))
+Satellite Report grew out of a such an observatory, [CEEMID](https://ceemid.eu/). CEEMID is aiming to transfer thousands of indicators and a verifiable, open-source software that creates them to the European Music Observatory to give Europe-wide acces timely, reliable, actionable statistics and indicators for the music industry, policymakers and music professionals. (Read more about our [data coverage](https://documentation.ceemid.eu/index.php?title=Main_Page#Data_Coverage))
 
 Satellite Report is aiming to support this transition, and at the same time, create new data products for other creative industries. See [our call for partners](http://demoobservatory.ceemid.eu/).
 
@@ -88,4 +75,3 @@ We will integrate data into open data products and music industry intelligence a
 * Big data sources from various geolocational applications about events and location visits [small video](https://www.youtube.com/watch?v=3lW8bhQ2fbY).
 
 * Automatic data retrieval from open data sources, including statistical data and EU-funded research. See example [blog post](https://danielantal.eu/post/how_many_ever_pay/)
-
