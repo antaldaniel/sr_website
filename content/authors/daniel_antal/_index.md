@@ -46,9 +46,9 @@ social:
 - icon: twitter
   icon_pack: fab
   link: https://twitter.com/antaldaniel
-- icon: google-scholar
+- icon: orcid
   icon_pack: ai
-  link: 
+  link: https://orcid.org/0000-0001-5712-2103
 - icon: github
   icon_pack: fab
   link: https://github.com/antaldaniel
