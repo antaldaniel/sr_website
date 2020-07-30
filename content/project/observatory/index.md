@@ -68,6 +68,13 @@ the Competitiveness of Enterprises and SMEs (COSME).
 
 * The [Cluster Observatory](http://www.clusterobservatory.eu/) of the Center for Strategy and Competitiveness at the Stockholm School of Economics, which started out originally as the European Cluster Observatory.
 
+## Reproducible research
+
+We believe that a modern data observatory should be as much reproducible and automated as possible.
+
+* Following reproducible research principles leads to higher data quality, especially if it is based on open-source code.  
+* Reproducible data can be automatically documented, which makes teamwork, collaboration and instant use far more efficient.
+* Reproducible research products offer far more efficient supervision and audit.  Quality control is cheaper and easier.
 
 ## Open source, open data, open collaboration
 
@@ -83,15 +90,4 @@ The use of open source software and the open source R statistical language allow
 
 From the originally envisioned, centralized, permission-based data structure, due to practical considerations, CEEMID switched to a more flexible, decentralized approach. This approach is based on continuous [data integration](https://documentation.ceemid.eu/index.php?title=Main_Page#Data_Integration), which requires permissions to use business confidential information only in use. This allowed a rapid extension of CEEMID to the whole of Europe and go even beyond.  As a result of continous data integration it already includes hundreds of indicators foreseen in all pillars of the planned European Music Observatory. 
 
-While CEEMID is aware of and uses the metadata of CISAC's, IFPI's, EAO's, and other industry sources' data, it does not contain this data, only when a user with permission for the use of these industry sources requires the integration of such data with other CEEMID data, or user-specific data.  While this approach makes sharing results more cumbersome, it provided a path to increase the number of useful indicators from a few dozens to around a thousand. Furthermore, it exponentially increases the value of CISAC's, IFPI's or EAO's data, especially when designing better royalty rates, or creating economic evidence for litigation. Take a look at a simple, non-confidential example [blog post](https://danielantal.eu/post/cee_mini_17/).
-
-We will integrate data into open data products and music industry intelligence apps from the following sources:
-
-* Nationally representative [CAP surveys](https://danielantal.eu/usecase/cap/) of music users and film viewers.
-
-* Anonymous [CEEMID Music Professional Surveys](https://danielantal.eu/usecase/musicians/) and *CEEMID Audiovisual Professional Surveys* about their work, incomes and costs. See example [blog post](https://danielantal.eu/post/career_path/).
-
-* Big data sources from various geolocational applications about events and location visits [small video](https://www.youtube.com/watch?v=3lW8bhQ2fbY).
-
-* Automatic data retrieval from open data sources, including statistical data and EU-funded research. See example [blog post](https://danielantal.eu/post/how_many_ever_pay/)
-
+While CEEMID is aware of and uses the metadata of CISAC's, IFPI's, 
