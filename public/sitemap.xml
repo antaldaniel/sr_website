@@ -3,6 +3,36 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/post/2020-music-professional-survey-wave/</loc>
+    <lastmod>2020-07-30T15:38:43+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/music/</loc>
+    <lastmod>2020-07-30T15:38:43+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/</loc>
+    <lastmod>2020-07-30T15:38:43+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2020-07-30T15:38:43+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/survey/</loc>
+    <lastmod>2020-07-30T15:38:43+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2020-07-30T15:38:43+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/authors/</loc>
     <lastmod>2020-07-24T15:00:00+02:00</lastmod>
   </url>
@@ -18,11 +48,6 @@
   </url>
   
   <url>
-    <loc>/post/</loc>
-    <lastmod>2020-07-24T15:00:00+02:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/tag/r/</loc>
     <lastmod>2020-07-24T15:00:00+02:00</lastmod>
   </url>
@@ -34,16 +59,6 @@
   
   <url>
     <loc>/post/2020-07-25-reproducible_ingestion/</loc>
-    <lastmod>2020-07-24T15:00:00+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/</loc>
-    <lastmod>2020-07-24T15:00:00+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
     <lastmod>2020-07-24T15:00:00+02:00</lastmod>
   </url>
   
@@ -328,6 +343,16 @@
   </url>
   
   <url>
+    <loc>/tag/cci/</loc>
+    <lastmod>2020-01-29T16:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2020-01-30-ceereport/</loc>
+    <lastmod>2020-01-29T16:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/publication/ceereport_2020/</loc>
     <lastmod>2020-01-29T16:00:00+01:00</lastmod>
   </url>
@@ -354,6 +379,11 @@
   
   <url>
     <loc>/tag/music-industry/</loc>
+    <lastmod>2020-01-29T16:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/opendata/</loc>
     <lastmod>2020-01-29T16:00:00+01:00</lastmod>
   </url>
   

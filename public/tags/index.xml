@@ -5,12 +5,28 @@
     <link>/tags/</link>
       <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     <description>Tags</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020</copyright><lastBuildDate>Fri, 24 Jul 2020 15:00:00 +0200</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020</copyright><lastBuildDate>Thu, 30 Jul 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>Tags</title>
       <link>/tags/</link>
     </image>
+    
+    <item>
+      <title>music</title>
+      <link>/tag/music/</link>
+      <pubDate>Thu, 30 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>/tag/music/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>survey</title>
+      <link>/tag/survey/</link>
+      <pubDate>Thu, 30 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>/tag/survey/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>open-data</title>
@@ -197,6 +213,14 @@
     </item>
     
     <item>
+      <title>CCI</title>
+      <link>/tag/cci/</link>
+      <pubDate>Wed, 29 Jan 2020 16:00:00 +0100</pubDate>
+      <guid>/tag/cci/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Czechia</title>
       <link>/tag/czechia/</link>
       <pubDate>Wed, 29 Jan 2020 16:00:00 +0100</pubDate>
@@ -233,6 +257,14 @@
       <link>/tag/music-industry/</link>
       <pubDate>Wed, 29 Jan 2020 16:00:00 +0100</pubDate>
       <guid>/tag/music-industry/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>opendata</title>
+      <link>/tag/opendata/</link>
+      <pubDate>Wed, 29 Jan 2020 16:00:00 +0100</pubDate>
+      <guid>/tag/opendata/</guid>
       <description></description>
     </item>
     
