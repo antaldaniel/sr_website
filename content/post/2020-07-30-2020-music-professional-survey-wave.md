@@ -1,5 +1,5 @@
 ---
-title: 2020 Music Professional Survey Wave
+title: 2020 Music Professionals Survey Wave
 author: 'error: invalid key: Antal/.gitconfig'
 date: '2020-07-30'
 slug: 2020-music-professional-survey-wave
