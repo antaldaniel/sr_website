@@ -47,9 +47,17 @@ An **observatory** is a location used for observing terrestrial or celestial eve
 
 Satellite Report grew out of a such an observatory, [CEEMID](https://ceemid.eu/). 
 
-## Data Observatories
+## How To Start A Data Observatory?
 
-A few examples:
+* A **private observatory** is a data integration system, which automatically collects external information, processes it and professionally joins it with internal data resources. We offer this to [business](#business), [scientific research](#science), [think tank and NGO](#ngo) and [journalism](#journalism) partners.
+
+* A **collaborative observatory** is a data integration system that has a map to collaborating institutions’s data resources, and is able to exploit their synergies by automatically combining their data, triggered by an authorization of all involved parties. We offer this to Consortia of various entities. Daniel's [CEEMID project](https://danielantal.eu/project/ceemid/) developed since 2014 is a good example of a collaborative observatory.
+
+* A **public observatory** is a collaborative observatory that intends to make at least some of its data assets available as open data. ode chunk to prevent printing of the R code that generated the plot. We offer this for the European Union and its Consortia. [See some observatories »](https://documentation.satellitereport.com/index.php?title=Observatory)
+
+Our observatories fulfil important functions in data collection, processing, integration, and automated modelling. We provide these services as custom software as service products in the form of data applications. To design a good observatory that fulfils your business, policy, scientific or journalistic needs, we provide data curating as a consulting service.
+
+A few public observatories:
 
 * The [European Alternative Fuels Observatory](https://www.eafo.eu/) is an European Commission funded initiative which provides open and free information, amongst others to support Member States with the implementation of EU Directive 2014/94 on the deployment of alternative fuels infrastructure. The EAFO is maintained by the [EAFO Consortium](https://www.eafo.eu/knowledge-center/consortium).
 
@@ -59,6 +67,7 @@ A few examples:
 the Competitiveness of Enterprises and SMEs (COSME).
 
 * The [Cluster Observatory](http://www.clusterobservatory.eu/) of the Center for Strategy and Competitiveness at the Stockholm School of Economics, which started out originally as the European Cluster Observatory.
+
 
 ## Open source, open data, open collaboration
 
