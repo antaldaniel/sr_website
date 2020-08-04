@@ -32,7 +32,7 @@ education:
     institution: Leiden University
     year: 2017
   - course: MSc in Social Policy
-    institution: Leiden University
+    institution: Eötvös Lóránd University
     year: 2008
 
 # Social/Academic Networking
