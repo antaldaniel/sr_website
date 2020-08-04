@@ -19,7 +19,7 @@ organizations:
   url: "https://satellitereport.com/"
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include localization and photography.
+bio: My professional interests include localization and photography.
 
 topics:
 - Localization
@@ -51,7 +51,7 @@ social:
   link: 
 - icon: github
   icon_pack: fab
-  link: 
+  link: https://github.com/szentrek
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
@@ -67,4 +67,4 @@ user_groups:
 - Founders
 ---
 
-Réka Szentirmay is a seasoned localisation professional with more than a decade of experience in translations, technical documentation and project management. With a background in social sciences and the theory of photography and film, Réka strengthens the team from the perspective of liberal arts.
+Réka Szentirmay is a seasoned localisation professional with more than a decade of experience in translations, technical documentation and project management. With a background in journalism, social sciences and the theory of photography and film, Szentirmay strengthens the team from the perspective of digital humanities.
