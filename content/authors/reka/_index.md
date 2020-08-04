@@ -45,7 +45,7 @@ social:
   link: '#contact'  # For a direct email link, use "mailto:test@example.org".
 - icon: twitter
   icon_pack: fab
-  link: 
+  link: https://twitter.com/finnestra
 - icon: google-scholar
   icon_pack: ai
   link: 
