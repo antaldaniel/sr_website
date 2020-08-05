@@ -61,4 +61,4 @@ user_groups:
 - Team
 ---
 
-Istvan has experience in macroeconomics, corporate advisory and using data science to reveal information hidden in the data. He has experience with working for large corporations as well as being an independent consultant. He is a contributor to the [regions package](publication/regions_2020/) that we use for the creation of sub-national indicators and data panels. 
+Istvan has experience in macroeconomics, corporate advisory and using data science to reveal information hidden in the data. He has experience with working for large corporations, having served as the lead economist of WSE: MOL as well as being an independent consultant. He is a contributor to the [regions package](publication/regions_2020/) that we use for the creation of sub-national indicators and data panels. 
